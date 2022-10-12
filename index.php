@@ -344,7 +344,6 @@
                         </div>
                     </div>
 
-
                     <div class="col-6">
                         <p class="text-center title03">防災工事</p>
                         <div class="slider">
@@ -352,7 +351,6 @@
                             <img src="<?php echo get_template_directory_uri();?>/img/kantiki-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
-
 
                     <div class="col-6">
                         <p class="text-center title03">3Dモデリング・デザイン</p>
