@@ -18,7 +18,7 @@
     </head>
 
     <body>
-        <?php get_header();?>
+        <?php get_header("1");?>
         
         <div class="main-doc">
             <video src="<?php echo get_template_directory_uri();?>/img/25bec058-d27c-41fd-9bb8-4bc7d075ced2.mp4" controls muted autoplay playsinline loop style="width:100%;"></video>
@@ -29,7 +29,7 @@
 
                     <div class="col-6">
                         <h2 class="text-center title02">ニュース</h2>
-                        <div class="text-center border border-success mx-3">
+                        <div class="text-center border border-success mx-3 p-3">
 
                             <div>
                                 <?php
@@ -43,7 +43,7 @@
                                 
                                 <?php while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
                                 
-                                <p><?php the_time( get_option( 'date_format' ) ); ?></p>
+                                <?php the_time( get_option( 'date_format' ) ); ?>
                                 <p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
                                 
                                 <?php endwhile; ?>
@@ -56,27 +56,27 @@
 
                     <div class="col-6">
                         <h2 class="text-center title02">ブログ</h2>
-                        <div class="text-center border border-success mx-3">
+                        <div class="text-center border border-success mx-3 p-3">
 
-                            <div class="blogbox"><div class="blog_wrap">
-
-                            <!-- メインループの開始 -->
-                            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                            
-                            <a href="<?php the_permalink(); ?>">
-                                <article>
-                                    <!-- 記事タイトルの表示 -->
-                                    <p class="blogarchive_title"><?php the_title();?></p>
-                                </article>
-                            </a>
-                            
-                            <?php
-                            endwhile;
-                            else : echo '記事がありません';
-                            endif;
-                            ?>
-
-                            </div></div>
+                            <div>
+                                <?php
+                                    $args = array(
+                                        'post_type' => '', //カスタム投稿タイプ名
+                                        'posts_per_page' => 3 //取得する投稿の件数
+                                    );
+                                    
+                                    $my_query = new WP_Query( $args );
+                                ?>
+                                
+                                <?php while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+                                
+                                <?php the_time( get_option( 'date_format' ) ); ?>
+                                <p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+                                
+                                <?php endwhile; ?>
+                                
+                                <?php wp_reset_postdata(); ?>
+                            </div>
                             
                         </div>
                     </div>
@@ -388,14 +388,17 @@
                             
                             <?php while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
                             
-                            <p class="mt-2"><?php the_time( get_option( 'date_format' ) );?></p>
-                            <p><a href="<?php the_permalink(); ?>" class="mb-2"><?php the_excerpt();?></a></p>
-                            
+                            <div class="mt-3 if">
+                                <?php the_time( get_option( 'date_format' ) );?>
+                                <a href="<?php the_permalink(); ?>"><?php echo the_content(); ?></a>
+                            </div>
+
                             <?php endwhile; ?>
                             
                             <?php wp_reset_postdata(); ?>
                         </div>
                         
+                        </div></div>
                     </div>
                 </div>
 
@@ -405,7 +408,7 @@
                         <p>何かお困りごとがあれば、先ずはお問い合わせください
                             <br>解決の糸口を見つけ、お手伝いいたします
                         </p>
-                        <a href="<?php bloginfo('url')?>/contact">コチラからお問い合わせフォームへ</a>
+                        <!-- <a href="<?php bloginfo('url')?>/contact">コチラからお問い合わせフォームへ</a> -->
                         <?php echo do_shortcode('[contact-form-7 id="9" title="コンタクトフォーム 1"]'); ?>
                     </div>
                 </div>

@@ -158,6 +158,11 @@ label #cancel{
     cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
   }
 
+  .if {
+    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+  }
+
+
   /* タイトル */
   .title01{
     font-size: 3.0vw;
@@ -219,3 +224,7 @@ label #cancel{
   padding:5px;
   color:white;
 }
+
+/* 投稿ページ設定 */
+
+

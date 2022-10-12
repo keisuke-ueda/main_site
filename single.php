@@ -24,17 +24,16 @@ Template Name: ブログページ
     </head>
 
     <body>
+        <?php get_header("2");?>
 
-        <?php get_header();?>
-        
-        <div class="main-doc">
-            <div class="row">
+        <main class="main-doc pt-5">
+            <div class="col-8 mx-auto">
                 <div class="d-block mx-auto">
                     <h1 class="text-center"><?php the_title(); ?></h1>
                     <p class="text-center"><?php the_content(); ?></p>
                 </div>
             </div>
-        </div>
+        </main>
         
     </body>
 

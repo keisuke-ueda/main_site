@@ -3,6 +3,17 @@
 // アイキャッチ画像有効化
 add_theme_support( 'post-thumbnails' );
 
+
+/*【出力カスタマイズ】検索結果のタイトルをカスタマイズ */
+function wp_search_title($search_title){
+    if(is_search()){
+      $search_title = '「'.get_search_query().'」の検索結果';
+    }
+    return $search_title;
+}
+add_filter('wp_title','wp_search_title');
+
+
 // デザイン投稿
 function create_post_design() {
     $exampleSupports = [
@@ -136,7 +147,5 @@ function add_youtube_taxonomy(){
         );
 }
 add_action( 'init','add_youtube_taxonomy');
-
-
 
 ?>
