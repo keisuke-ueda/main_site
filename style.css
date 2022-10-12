@@ -1,3 +1,7 @@
+/*
+Theme Name:main_site
+*/
+
 *{
   margin: 0;
   padding: 0;
@@ -75,7 +79,7 @@ label #cancel{
 label #hambarger{
   z-index: 997;
   position: fixed;
-  top: 0;
+  top: 30px;
   right: 0px;
   transition: all 0.5s;
 }
@@ -109,7 +113,7 @@ label #cancel{
     left: -15px;
     width: 30px;
     height: 30px;
-    background: url(./img/fabicon1.png) 50% 50% no-repeat;
+    background: url(<?php echo get_template_directory_uri();?>/img/fabicon1.png) 50% 50% no-repeat;
     background-size: contain;
     z-index: 2;
     animation: star 2.5s ease-out 0s forwards;
@@ -136,15 +140,15 @@ label #cancel{
   }
 
   .change {
-    cursor: url(./img/b-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(<?php echo get_template_directory_uri();?>/img/b-iconmonstr-telegram-1-240.cur),auto;
   }
 
   .change a {
-    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(<?php echo get_template_directory_uri();?>/img/g-iconmonstr-telegram-1-240.cur),auto;
   }
 
   .change label {
-    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(<?php echo get_template_directory_uri();?>/img/g-iconmonstr-telegram-1-240.cur),auto;
   }
 
   /* タイトル */

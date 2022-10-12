@@ -57,39 +57,17 @@
         </script>
 
         <!-- オリジナルスタイルシート -->
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css">
 
         <title>Field-UP Main_site</title>
 
     </head>
 
     <body>
-        <header>
-            <a href="" class=""><img src="./img/屋号ロゴ-01.png" alt="" class="mt-3 mx-4 logo" style="width:30%;"></a>
-
-            <input type="checkbox" id="check">
-            <label for="check">
-                <img src="./img/iconmonstr-menu-square-lined-240.png" alt="" class="mt-3 mx-4" id="hambarger" style="width:4%; display: inline-block;">
-                <img src="./img/iconmonstr-x-mark-square-filled-240.png" alt="" class="mt-3 mx-4" id="cancel" style="width:3%; display: inline-block;">
-            </label>
-    
-            
-            <div class="sidebar">
-                <p class="bg-success">情報</p>  
-                <ul>
-                    <li><a href=""><img src="./img/iconmonstr-building-19-240.png" alt="" style="width:10%;">事業概要</a></li>
-                    <li><a href=""><img src="./img/iconmonstr-school-27-240.png" alt="" style="width:10%;">事業展開</a></li>
-                    <li><a href=""><img src="./img/iconmonstr-id-card-thin-240.png" alt="" style="width:10%;">代表メッセージ</a></li>
-                    <li><a href=""><img src="./img/iconmonstr-bar-chart-thin-240.png" alt="" style="width:10%;">参考実績</a></li>
-                    <li><a href=""><img src="./img/iconmonstr-photo-camera-thin-240.png" alt="" style="width:10%;">ギャラリー</a></li>
-                    <li><a href=""><img src="./img/iconmonstr-caret-right-circle-filled-240.png" alt="" style="width:10%;">Youtubeチャンネル</a></li>
-                    <li><a href=""><img src="./img/iconmonstr-gmail-5-240.png" alt="" style="width:10%;">お問い合わせ</a></li>
-                </ul>
-            </div>
-        </header>
+        <?php get_header();?>
         
         <div class="main-doc">
-            <video src="./img/25bec058-d27c-41fd-9bb8-4bc7d075ced2.mp4" controls muted autoplay playsinline loop style="width:100%;"></video>
+            <video src="<?php echo get_template_directory_uri();?>/img/25bec058-d27c-41fd-9bb8-4bc7d075ced2.mp4" controls muted autoplay playsinline loop style="width:100%;"></video>
 
             <div class="container">
 
@@ -117,7 +95,7 @@
                         <p >test test test test
                             <br>test test test test
                         </p>
-                        <img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
                     </div>
                 </div>
 
@@ -131,7 +109,7 @@
                                 <br>カウンセリング技術だけでなく、アロマや漢方、健康管理などの方面からもアドバイスを行うことができます。
                             </p>
                             <p>現代では無視できないストレスチェックや、目標達成をするための技術もレクチャーできます。</p>
-                            <a href="" class=""><img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
                         </div>
                     </div>
 
@@ -141,7 +119,7 @@
                             <p >test test test test
                                 <br>test test test test
                             </p>
-                            <a href="" class=""><img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
                         </div>
                     </div>
 
@@ -151,7 +129,7 @@
                             <p >test test test test
                                 <br>test test test test
                             </p>
-                            <a href="" class=""><img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
                         </div>
                     </div>
 
@@ -161,7 +139,7 @@
                             <p >test test test test
                                 <br>test test test test
                             </p>
-                            <a href="" class=""><img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
                         </div>
                     </div>
 
@@ -208,13 +186,13 @@
                     </div>
 
                     <div class="col-4">
-                        <img src="./img/representative.jpg" alt="" class="d-block mx-auto mt-3" style="width:50%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/representative.jpg" alt="" class="d-block mx-auto mt-3" style="width:50%;">
                         <p class="text-center title03">聴くプロ(心理カウンセラー)</p>
-                        <img src="./img/vtuber.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/vtuber.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
                         <p class="text-center title03">Vtuber</p>
-                        <img src="./img/kaitai-5.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/kaitai-5.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
                         <p class="text-center title03">工事人</p>
-                        <img src="./img/create.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/create.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
                         <p class="text-center title03">エンジニア・設計士<br>クリエイター</p>
                     </div>
 
@@ -273,102 +251,102 @@
                     <div class="col-6">
                         <p class="text-center title03">オンライン講座</p>
                         <div class="slider">
-                            <img src="./img/brainpower.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/JW_CAD.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/HTML_CSS.png" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/Ecxel_1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/brainpower.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/JW_CAD.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/HTML_CSS.png" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/Ecxel_1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">配線整理・ネットワーク改善</p>
                         <div class="slider">
-                            <img src="./img/net-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/net-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/net-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/net-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">防犯カメラ工事</p>
                         <div class="slider">
-                            <img src="./img/camera-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/camera-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/camera-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/camera-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">映像撮影</p>
                         <div class="slider">
-                            <img src="./img/movies.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/movies.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">チラシ・ポイントカードデザイン/制作  </p>
                         <div class="slider">
-                            <img src="./img/digin1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/digin2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/digin1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/digin2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">タンク工事・省エネコンサル</p>
                         <div class="slider">
-                            <img src="./img/tank-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/tank-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/fow.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/tank-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/tank-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/fow.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">移転業</p>
                         <div class="slider">
-                            <img src="./img/iten.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/iten.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">エアコン工事</p>
                         <div class="slider">
-                            <img src="./img/air-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/air-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/air-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/air-4.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/air-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/air-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/air-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/air-4.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
                     
                     <div class="col-6">
                         <p class="text-center title03">廃棄・解体</p>
                         <div class="slider">
-                            <img src="./img/kaitai-4.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/kaitai-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/kaitai-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/kaitai-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/kaitai-4.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/kaitai-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/kaitai-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/kaitai-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">デマンド機器工事</p>
                         <div class="slider">
-                            <img src="./img/demand-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/demand-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/demand-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/demand-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">パーティション工事</p>
                         <div class="slider">
-                            <img src="./img/door1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/apt-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/apt-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/apt-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/door1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/apt-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/apt-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/apt-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
                     <div class="col-6">
                         <p class="text-center title03">飲食コンサル</p>
                         <div class="slider">
-                            <img src="./img/nobu.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/nobu.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
@@ -376,8 +354,8 @@
                     <div class="col-6">
                         <p class="text-center title03">防災工事</p>
                         <div class="slider">
-                            <img src="./img/kantiki-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/kantiki-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/kantiki-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/kantiki-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
@@ -385,9 +363,9 @@
                     <div class="col-6">
                         <p class="text-center title03">3Dモデリング・デザイン</p>
                         <div class="slider">
-                            <img src="./img/model-1.png" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/model-2.png" alt="" class="d-block mx-auto mt-3" style="width:100%;">
-                            <img src="./img/model-3.png" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/model-1.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/model-2.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
+                            <img src="<?php echo get_template_directory_uri();?>/img/model-3.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;">
                         </div>
                     </div>
 
@@ -399,7 +377,7 @@
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
                             <br>是非参考にしてください!!
                         </p>
-                        <img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
                         <h3 class="text-center">最近投稿された動画</h3>
                         <p>test test test test</p>
                         <p>test test test test</p>
@@ -414,7 +392,7 @@
                         <p>何かお困りごとがあれば、先ずはお問い合わせください
                             <br>解決の糸口を見つけ、お手伝いいたします
                         </p>
-                        <a href="">コチラからお問い合わせフォームへ</a>
+                        <a href="<?php bloginfo('url')?>/contact">>コチラからお問い合わせフォームへ</a>
                     </div>
                 </div>
 
@@ -422,25 +400,7 @@
         </div>
     </body>
 
-    <footer class="bg-light">
-
-        <div class="row">
-            <div class="col-4">
-                <img src="./img/屋号ロゴ-01.png" alt="" class="d-block mx-auto mt-3 mb-3" style="width:100%;">
-            </div>
-            <div class="col-4 d-flex align-items-center justify-content-center">
-                <p>所在地：〒114-0011 東京都北区昭和町1-4-7
-                    <br>email:keisuke.ueda@field-up.work
-                    <br>TEL:080-4955-4941
-                </p>
-            </div>
-            <div class="col-4">
-                <img src="./img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:20%;">
-            </div>
-            
-        </div>
-
-    </footer>
+    <?php get_footer();?>
 
 </html>
 
