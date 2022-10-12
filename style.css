@@ -18,6 +18,13 @@ body {
   background: rgb(250, 255, 249);
 }
 
+/* footer */
+footer{
+  font-size:1.3vw;
+  font-family: "M PLUS Rounded 1c";
+  color: rgb(66, 66, 66);
+}
+
 /* header */
 .logo {
     position: fixed;
@@ -113,7 +120,7 @@ label #cancel{
     left: -15px;
     width: 30px;
     height: 30px;
-    background: url(<?php echo get_template_directory_uri();?>/img/fabicon1.png) 50% 50% no-repeat;
+    background: url(./img/fabicon1.png) 50% 50% no-repeat;
     background-size: contain;
     z-index: 2;
     animation: star 2.5s ease-out 0s forwards;
@@ -140,15 +147,15 @@ label #cancel{
   }
 
   .change {
-    cursor: url(<?php echo get_template_directory_uri();?>/img/b-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/b-iconmonstr-telegram-1-240.cur),auto;
   }
 
   .change a {
-    cursor: url(<?php echo get_template_directory_uri();?>/img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
   }
 
   .change label {
-    cursor: url(<?php echo get_template_directory_uri();?>/img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
   }
 
   /* タイトル */
