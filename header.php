@@ -49,8 +49,8 @@
 
     <input type="checkbox" id="check">
     <label for="check">
-        <img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-menu-square-lined-240.png" alt="" class="mt-3 mx-4" id="hambarger" style="width:4%; display: inline-block;">
-        <img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-x-mark-square-filled-240.png" alt="" class="mt-3 mx-4" id="cancel" style="width:3%; display: inline-block;">
+        <img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-menu-square-lined-240.png" alt="" class="mt-3 mx-4" id="hambarger" style="width:6%; display: inline-block;">
+        <img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-x-mark-square-filled-240.png" alt="" class="mt-3 mx-4" id="cancel" style="width:6%; display: inline-block;">
     </label>
 
     <div class="sidebar">

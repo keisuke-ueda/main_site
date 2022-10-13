@@ -21,14 +21,14 @@ Template Name: news
 
     </head>
 
-    <body class="body">
+    <body>
         <?php get_header("2");?>
-        
+            
         <main class="main-doc">
- 
+
             <div class="col-8 mx-auto">
 
-                <h1 class="text-center pt-5">ブログ一覧</h1>
+                <h1 class="text-center pt-5">ニュース一覧</h1>
 
                 <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post();
@@ -60,7 +60,7 @@ Template Name: news
                 </div> 
                 
             </div>
-
+    
         </main>
 
     </body>

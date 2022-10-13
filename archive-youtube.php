@@ -28,7 +28,7 @@ Template Name: news
  
             <div class="col-8 mx-auto">
 
-                <h1 class="text-center pt-5">ブログ一覧</h1>
+                <h1 class="text-center pt-5">Youtube一覧</h1>
 
                 <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post();

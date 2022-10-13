@@ -148,4 +148,14 @@ function add_youtube_taxonomy(){
 }
 add_action( 'init','add_youtube_taxonomy');
 
-?>
+
+// 投稿の一覧表示有効
+function post_has_archive( $args, $post_type ) {
+    if ( 'post' == $post_type ) {
+      $args['rewrite'] = true;
+      $args['has_archive'] = 'archive'; //URLとして使いたい文字列
+    }
+    return $args;
+  }
+  add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
+

@@ -49,6 +49,9 @@
                                 <?php endwhile; ?>
                                 
                                 <?php wp_reset_postdata(); ?>
+
+                                <a href="<?php bloginfo('url')?>/news">過去の一覧はコチラ</a>
+
                             </div>
 
                         </div>
@@ -76,6 +79,8 @@
                                 <?php endwhile; ?>
                                 
                                 <?php wp_reset_postdata(); ?>
+
+                                <a href="<?php bloginfo('url')?>/archive">過去の一覧はコチラ</a>
                             </div>
                             
                         </div>
@@ -394,6 +399,9 @@
                             <?php endwhile; ?>
                             
                             <?php wp_reset_postdata(); ?>
+
+                            <a href="<?php bloginfo('url')?>/youtube">過去の一覧はコチラ</a>
+
                         </div>
                         
                         </div></div>

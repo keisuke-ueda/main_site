@@ -228,3 +228,37 @@ label #cancel{
 /* 投稿ページ設定 */
 
 
+/* ページネーション */
+.pagination{
+  margin:40px 0 0;
+  font-size:1.3vw;
+}
+.nav-links{
+   display:flex;
+}
+.pagination .page-numbers{
+  display:inline-block;
+  margin-right:20px;
+  padding:20px 25px;
+  color:#333;
+  border-radius:3px;
+  box-shadow:0 3px 3px #999;
+  background:#fff;
+   
+}
+.pagination .current{
+  padding:20px 25px;
+  background:#69a4db;
+  color:#fff;
+}
+.pagination .prev,
+.pagination .next{
+  background:transparent;
+  box-shadow:none;
+  color:#69a4db;
+}
+.pagination .dots{
+  background:transparent;
+  box-shadow:none;
+}
+
