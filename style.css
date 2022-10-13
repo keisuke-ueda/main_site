@@ -9,7 +9,7 @@ Theme Name:main_site
 }
 
 body {
-    font-size:0;
+  font-size:0;
 }
 
 .main-doc{
@@ -23,6 +23,14 @@ footer{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
   color: rgb(66, 66, 66);
+}
+
+.row00{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 /* header */
@@ -261,4 +269,3 @@ label #cancel{
   background:transparent;
   box-shadow:none;
 }
-
