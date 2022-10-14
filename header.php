@@ -59,10 +59,12 @@
             <li><a href="#title01"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-building-19-240.png" alt="" style="width:10%;">事業概要</a></li>
             <li><a href="#title02"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-school-27-240.png" alt="" style="width:10%;">事業展開</a></li>
             <li><a href="#title03"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-id-card-thin-240.png" alt="" style="width:10%;">代表メッセージ</a></li>
-            <li><a href="#title04"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-bar-chart-thin-240.png" alt="" style="width:10%;">参考実績</a></li>
-            <li><a href="#title05"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-photo-camera-thin-240.png" alt="" style="width:10%;">ギャラリー</a></li>
-            <li><a href="#title06"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-caret-right-circle-filled-240.png" alt="" style="width:10%;">Youtubeチャンネル</a></li>
-            <li><a href="#title07"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-gmail-5-240.png" alt="" style="width:10%;">お問い合わせ</a></li>
+            <li><a href="#title04"><img src="<?php echo get_template_directory_uri();?>/img/manabi.png" alt="" style="width:10%;">ちょい見せ講座</a></li>
+            <li><a href="#title05"><img src="<?php echo get_template_directory_uri();?>/img/kouza.png" alt="" style="width:10%;">ストリートアカデミー</a></li>
+            <li><a href="#title06"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-bar-chart-thin-240.png" alt="" style="width:10%;">参考実績</a></li>
+            <li><a href="#title07"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-photo-camera-thin-240.png" alt="" style="width:10%;">ギャラリー</a></li>
+            <li><a href="#title08"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-caret-right-circle-filled-240.png" alt="" style="width:10%;">Youtubeチャンネル</a></li>
+            <li><a href="#title09"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-gmail-5-240.png" alt="" style="width:10%;">お問い合わせ</a></li>
         </ul>
     </div>
 </header>

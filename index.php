@@ -21,7 +21,7 @@
         <?php get_header("1");?>
         
         <div class="main-doc">
-            <video src="<?php echo get_template_directory_uri();?>/img/25bec058-d27c-41fd-9bb8-4bc7d075ced2.mp4" controls muted autoplay playsinline loop style="width:100%;"></video>
+            <video src="<?php echo get_template_directory_uri();?>/img/rest.mp4" muted autoplay playsinline loop style="width:100%;"></video>
 
             <div class="container">
 
@@ -104,47 +104,174 @@
                     <div class="col-6">
                         <h2 class="text-center title02">心理事業</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3">
-                            <p>全国心理業連合会、日本カウンセリング学会に所属しており、米国認定資格NLPを取得。
+                            <h3 class="text-center title03">サービス紹介</h3>
+                            <table class="table border-striped mt-3">
+                                <colgroup>
+                                    <col class="col-md-4">
+                                    <col class="col-md-8">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                    <th scope="col" class="text-center">サービス名</th>
+                                    <th scope="col" class="text-center">内容</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="text-center">メンタルヘルス</th>
+                                        <th>カウンセリング、心理テストの実施</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">健康予防</th>
+                                        <th>食事や健康にかかわるアドバイス、アロマ調合など</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">ビジネスメンタル</th>
+                                        <th>仕事に関わる相談</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">学習強化</th>
+                                        <th>心理学を応用した学習方法や、メンタルの保ち方</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.field-up.work/mental_field-up/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <p class="mt-3">全国心理業連合会、日本カウンセリング学会に所属しており、米国認定資格NLPを取得。
                                 <br>カウンセリング技術だけでなく、アロマや漢方、健康管理などの方面からもアドバイスを行うことができます。
                             </p>
-                            <p>現代では無視できないストレスチェックや、目標達成をするための技術もレクチャーできます。</p>
-                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <p>現代では無視できないストレスチェックや、目標達成をするための技術もレクチャーもできます。</p>
                         </div>
                     </div>
 
                     <div class="col-6">
                         <h2 class="text-center title02">システム事業</h2>
-                        <div class="text-center border border-success mx-right-5 mx-left-5">
-                            <p >test test test test
-                                <br>test test test test
+                        <div class="border border-success mx-right-5 mx-left-5 p-3">
+                            <h3 class="text-center title03">サービス紹介</h3>
+                            <table class="table border-striped mt-3">
+                                <colgroup>
+                                    <col class="col-md-4">
+                                    <col class="col-md-8">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                    <th scope="col" class="text-center">サービス名</th>
+                                    <th scope="col" class="text-center">内容</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="text-center">WEBサイト制作</th>
+                                        <th>フレームワークやCMSを利用したサイトの制作</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">アプリ開発</th>
+                                        <th>独自のWEBアプリや、スマホアプリを開発</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">業務効率化</th>
+                                        <th>RPAやVBA等を活用した業務の効率化</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">システムコンサル</th>
+                                        <th>中小規模のシステムの構築や、サーバー等の不具合などの対応</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.field-up.work/field-up.system/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <p class="mt-3">業務委託や、請負でWEBサイト制作からアプリ開発、サーバー周辺業務も丸っと行います。
+                                <br>費用不足の場合でも、何ら頭の方法で目的を実現させるための手段を考案します。
                             </p>
-                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <p>まずは気軽にお問い合わせください。</p>
                         </div>
                     </div>
 
                     <div class="col-6 mt-4">
                         <h2 class="text-center title02">省エネ事業</h2>
-                        <div class="text-center border border-success mx-right-5 mx-left-5">
-                            <p >test test test test
-                                <br>test test test test
+                        <div class="border border-success mx-right-5 mx-left-5 p-3">
+                            <h3 class="text-center title03">サービス紹介</h3>
+                            <table class="table border-striped mt-3">
+                                <colgroup>
+                                    <col class="col-md-4">
+                                    <col class="col-md-8">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                    <th scope="col" class="text-center">サービス名</th>
+                                    <th scope="col" class="text-center">内容</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="text-center">省エネコンサル</th>
+                                        <th>現場診断からフローシートの作成、改善提案</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">タンク・圧力容器設計制作</th>
+                                        <th>タンクや、圧力容器、配管、電気工事など</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">省エネシステム導入</th>
+                                        <th>デマンド機器工事、比熱低減工事、モーター省エネ工事など</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">場内図面作図</th>
+                                        <th>業務効率化に必要な工場な図面を作図し、動線の整理など</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.field-up.work/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <p class="mt-3">エネルギー管理士として多くの現場に携わった知識、技術を生かして
+                                <br>昨今問題になっているエネルギー原価の低減のお手伝いをいたします。
                             </p>
-                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <p>現場診断・設計段階で関わりますが、業者の紹介まで実施できます。</p>
                         </div>
                     </div>
 
                     <div class="col-6 mt-4">
                         <h2 class="text-center title02">内装事業</h2>
-                        <div class="text-center border border-success mx-right-5 mx-left-5">
-                            <p >test test test test
-                                <br>test test test test
+                        <div class="border border-success mx-right-5 mx-left-5 p-3">
+                            <h3 class="text-center title03">サービス紹介</h3>
+                            <table class="table border-striped mt-3">
+                                <colgroup>
+                                    <col class="col-md-4">
+                                    <col class="col-md-8">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                    <th scope="col" class="text-center">サービス名</th>
+                                    <th scope="col" class="text-center">内容</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="text-center">内装設計・デザイン</th>
+                                        <th>工事をするために必要な図面や、デザイン制作など</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">各種什器・家具販売</th>
+                                        <th>デスクや、書庫、倉庫用品など</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">工事</th>
+                                        <th>内装、パーティション、電気、ネットワークや通信など</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center">移転</th>
+                                        <th>店舗やオフィスの移転など</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://www.field-up.work/officeinterior/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <p class="mt-3">入居から移転、退去まで丸っと一貫して、プランニングいたします。
+                                <br>2次元の図面だけでなく、3Dモデルによる工事イメージのご提案から知り合わせ、VRを使った工事前に仮想空間での体験もできます。
                             </p>
-                            <a href="" class=""><img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;"></a>
+                            <p>VR空間を体感したい、作ってほしいというという方も是非お声がけください。</p>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="row mt-5">
+                <div class="row mt-5 mb-3">
                     <h1 class="text-center title01 mb-3" id="title03">代表メッセージ・夢</h1>
 
                     <div class="col-8"> 
@@ -165,9 +292,9 @@
 
                         <h2 class="text-center title02 mt-3">夢</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3 bg-white">
-                            <p>カウンセラーの仕事をしてきて、悩みを打ち明けられない、迷いを誰かに相談できない人が世の中にはいっぱいいるという事態を目の当たりにしました。</p>
-                            <p>子供から大人、職業問わず<b class="text-primary">人の活動を止めてしまっているのはメンタル</b>が大きくかかわっていることは疑いようもない事実です。</p>
-                            <p>相談すること自体に抵抗がある人も多々あるので、<b class="text-primary">誰もが安心していろんな相談を持ち掛けてくれる場や仕組みを作ることが私の夢</b>です。</p>
+                            <p>カウンセラーの仕事をしてきて、悩みを打ち明ける場所がない、迷いを誰かに相談できない人が世の中にはいっぱいいるという事態を目の当たりにしました。</p>
+                            <p>子供から大人まで、年齢や職業問わず<b class="text-primary">人の活動を止めてしまっているのはメンタル</b>が大きくかかわっていることは疑いようもない事実です。</p>
+                            <p>相談すること自体に抵抗がある人も多くいるため、<b class="text-primary">誰もが安心していろんな相談を持ち掛けてくれる場や仕組みを作ることが私の夢</b>です。</p>
                             <p>相談を受けた内容の中で、自身の技術で助けになることがあれば、丸っと任せてもらえたら尚嬉しいです。</p>
                         </div>
 
@@ -197,8 +324,24 @@
 
                 </div>
 
+                <div class="row mt-3 mb-5">
+                    <h1 class="text-center title01" id="title04">ちょい見せ講座</h1>
+                    <p class="text-center">思考問題や、講座の資料をちょっとだけお見せします</p>
+                    <video src="<?php echo get_template_directory_uri();?>/img/rest.mp4"muted autoplay playsinline loop style="width:100%;"></video>
+                </div>
+
+                <div class="row">
+                    <h1 class="text-center title01" id="title05">ストリートアカデミー</h1>
+                    <p class="text-center">オンラインでいろいろなことを学べるプラットフォーム
+                        <br>ここで<b class="text-primary">オンライン講師</b>をしています
+                    </p>
+                    <p class="text-center">講座だけでなく、<b class="text-primary">気軽にいろんなことを相談できる窓口</b>もあります</p>
+                    <a href="https://www.street-academy.com/steachers/465170" target=_blank class="text-center"><p class="text-center">先生ページはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/sutoaka.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                    <a href="https://www.street-academy.com/onetime/services/2949" target=_blank class="text-center mt-4"><p class="text-center">相談コーナーはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                </div>
+
                 <div class="row mt-5">
-                    <h1 class="text-center title01" id="title04">参考実績</h1>
+                    <h1 class="text-center title01" id="title06">参考実績</h1>
                     <table class="table border-striped mt-3">
                         <colgroup>
                             <col class="col-md-2">
@@ -245,7 +388,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <h1 class="text-center title01" id="title05">ギャラリー</h1>
+                    <h1 class="text-center title01" id="title07">ギャラリー</h1>
 
                     <div class="col-6">
                         <p class="text-center title03">オンライン講座</p>
@@ -369,13 +512,13 @@
                 </div>
 
                 <div class="row mt-5">
-                    <h1 class="text-center title01" id="title06">Youtubeチャンネル</h1>
+                    <h1 class="text-center title01" id="title08">Youtubeチャンネル</h1>
                     <div class="text-center border border-success mx-right-5 mx-left-5 p-5">
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
                             <br>是非参考にしてください!!
                         </p>
-                        <img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
-                        <h3 class="text-center">最近投稿された動画</h3>
+                        <a href="https://www.youtube.com/channel/UCGZ9tx2keMqtCSL_UW1vyRw" target=_blank><p>Youtubeチャンネルはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/youtube_home.jpg" alt="" class="d-block mx-auto mt-3" style="width:100%;"></a>
+                        <h3 class="text-center mt-5">最近投稿された動画</h3>
 
                         <div class="blogbox"><div class="blog_wrap">
 
@@ -409,7 +552,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <h1 class="text-center title01" id="title07">お問い合わせ</h1>
+                    <h1 class="text-center title01" id="title09">お問い合わせ</h1>
                     <div class="text-center mx-right-5 mx-left-5">
                         <p>何かお困りごとがあれば、先ずはお問い合わせください
                             <br>解決の糸口を見つけ、お手伝いいたします
