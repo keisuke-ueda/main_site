@@ -9,8 +9,9 @@ Theme Name:main_site
 }
 
 body {
-    font-size:0;
+  font-size:0;
 }
+
 
 .main-doc{
   font-size:1.3vw;
@@ -18,11 +19,31 @@ body {
   background: rgb(250, 255, 249);
 }
 
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .main-doc{
+    font-size:11px;
+  }
+}
+
+
 /* footer */
 footer{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
   color: rgb(66, 66, 66);
+}
+@media screen and (min-width:300px) and ( max-width:780px) {
+  footer{
+    font-size:11px;
+  }
+}
+
+.row00{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 /* header */
@@ -36,7 +57,7 @@ footer{
 
 .sidebar {
     position: fixed;
-    top: -600px;
+    top: -800px;
     right: 0px;
     z-index: 998;
     box-sizing: border-box;
@@ -51,6 +72,11 @@ footer{
   user-select: none;
   font-size:1.3vw;
 }
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .sidebar p {
+    font-size:18px;
+  }
+}
 
 .sidebar ul a{
   font-size:1.3vw;
@@ -64,9 +90,14 @@ footer{
   border-bottom: 1px solid rgb(0, 0, 0);
   transition: all 0.4s;
 }
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .sidebar ul a{
+    font-size:18px;
+  }
+}
 
 ul li:hover{
-  padding-left: 10px;
+  width: 110%;
 }
 
 .sidebar ul a img{
@@ -86,7 +117,7 @@ label #cancel{
 label #hambarger{
   z-index: 997;
   position: fixed;
-  top: 30px;
+  top: 0px;
   right: 0px;
   transition: all 0.5s;
 }
@@ -112,6 +143,7 @@ label #cancel{
 #check:checked ~ label #cancel {
   top: 0px;
 }
+
 
 /* マウスストーカー */
 .star {
@@ -158,6 +190,11 @@ label #cancel{
     cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
   }
 
+  .if {
+    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+  }
+
+
   /* タイトル */
   .title01{
     font-size: 3.0vw;
@@ -174,10 +211,29 @@ label #cancel{
     border-radius: 30px;
  } 
 
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .title01{
+    font-size: 30px;
+  } 
+  .title02{
+    font-size: 25px;
+  } 
+ .title03{
+    font-size: 14px;
+  } 
+}
+
+
  /* 注意書き */
  .ex-text{
     font-size:1.0vw;
  }
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .ex-text{
+    font-size:12px;
+  }
+}
+
 
  /* 事業区分 */
 .mini_logo01{
@@ -186,6 +242,7 @@ label #cancel{
   margin:10px;
   padding:5px;
   color:white;
+  font-size: 1.0vw;
 }
 
 .mini_logo02{
@@ -194,6 +251,7 @@ label #cancel{
   margin:10px;
   padding:5px;
   color:white;
+  font-size: 1.0vw;
 }
 
 .mini_logo03{
@@ -202,6 +260,7 @@ label #cancel{
   margin:10px;
   padding:5px;
   color:white;
+  font-size: 1.0vw;
 }
 
 .mini_logo04{
@@ -210,6 +269,7 @@ label #cancel{
   margin:10px;
   padding:5px;
   color:white;
+  font-size: 1.0vw;
 }
 
 .mini_logo05{
@@ -218,4 +278,53 @@ label #cancel{
   margin:10px;
   padding:5px;
   color:white;
+  font-size: 1.0vw;
+}
+
+/* 投稿ページ設定 */
+iframe{
+  width:100%;
+}
+
+article a div img {
+  width: 200px;
+}
+
+/* 問合せ */
+p input{
+
+}
+
+/* ページネーション */
+.pagination{
+  margin:40px 0 0;
+  font-size:1.3vw;
+}
+.nav-links{
+   display:flex;
+}
+.pagination .page-numbers{
+  display:inline-block;
+  margin-right:20px;
+  padding:20px 25px;
+  color:#333;
+  border-radius:3px;
+  box-shadow:0 3px 3px #999;
+  background:#fff;
+   
+}
+.pagination .current{
+  padding:20px 25px;
+  background:#69a4db;
+  color:#fff;
+}
+.pagination .prev,
+.pagination .next{
+  background:transparent;
+  box-shadow:none;
+  color:#69a4db;
+}
+.pagination .dots{
+  background:transparent;
+  box-shadow:none;
 }
