@@ -90,11 +90,11 @@
 
                 <div class="row mt-5">
                     <h1 class="text-center title01" id="title01">事業概要</h1>
-                    <div class="text-center border border-success mx-right-5 mx-left-5">
-                        <p >test test test test
-                            <br>test test test test
+                    <div class="text-center border border-success mx-right-5 mx-left-5 p-3">
+                        <p >主に4つの事業を軸としており、それぞれの事業単体だけでなく、相乗効果をもたらす今までにない全く新しい事業形態を目指しております。
+                            <br>今この瞬間にも常に異常で特殊な成長を続けております。各事業の詳しい内容は事業展開をご覧ください。
                         </p>
-                        <img src="<?php echo get_template_directory_uri();?>/img/131616.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/jigyou.jpg" alt="" class="d-block mx-auto mt-3 mb-3" style="width:70%;">
                     </div>
                 </div>
 
