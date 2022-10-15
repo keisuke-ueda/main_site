@@ -95,7 +95,7 @@ label #cancel{
 label #hambarger{
   z-index: 997;
   position: fixed;
-  top: 30px;
+  top: 0px;
   right: 0px;
   transition: all 0.5s;
 }
@@ -240,7 +240,18 @@ label #cancel{
 }
 
 /* 投稿ページ設定 */
+iframe{
+  width:100%;
+}
 
+article a div img {
+  width: 200px;
+}
+
+/* 問合せ */
+p input{
+
+}
 
 /* ページネーション */
 .pagination{

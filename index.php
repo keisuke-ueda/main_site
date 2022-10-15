@@ -21,7 +21,7 @@
         <?php get_header("1");?>
         
         <div class="main-doc">
-            <video src="<?php echo get_template_directory_uri();?>/img/rest.mp4" muted autoplay playsinline loop style="width:100%;"></video>
+            <video src="<?php echo get_template_directory_uri();?>/img/main_site.mp4" muted autoplay playsinline loop style="width:100%;"></video>
 
             <div class="container">
 
@@ -135,7 +135,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="https://www.field-up.work/mental_field-up/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <a href="https://www.field-up.work/mental_field-up/" target=_blank class="text-center mt-4"><p class="text-center">心理事業サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental_site.png" alt="" class="d-block mx-auto mt-3" style="width:100%;"></a>
                             <p class="mt-3">全国心理業連合会、日本カウンセリング学会に所属しており、米国認定資格NLPを取得。
                                 <br>カウンセリング技術だけでなく、アロマや漢方、健康管理などの方面からもアドバイスを行うことができます。
                             </p>
@@ -177,7 +177,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="https://www.field-up.work/field-up.system/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <a href="https://www.field-up.work/field-up.system/" target=_blank class="text-center mt-4"><p class="text-center">システム事業サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/system_site.png" alt="" class="d-block mx-auto mt-3" style="width:100%;"></a>
                             <p class="mt-3">業務委託や、請負でWEBサイト制作からアプリ開発、サーバー周辺業務も丸っと行います。
                                 <br>費用不足の場合でも、何ら頭の方法で目的を実現させるための手段を考案します。
                             </p>
@@ -219,7 +219,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="https://www.field-up.work/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <a href="https://www.field-up.work/" target=_blank class="text-center mt-4"><p class="text-center">省エネ事業サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/ene_site.png" alt="" class="d-block mx-auto mt-3" style="width:100%;"></a>
                             <p class="mt-3">エネルギー管理士として多くの現場に携わった知識、技術を生かして
                                 <br>昨今問題になっているエネルギー原価の低減のお手伝いをいたします。
                             </p>
@@ -261,7 +261,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <a href="https://www.field-up.work/officeinterior/" target=_blank class="text-center mt-4"><p class="text-center">事業別サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
+                            <a href="https://www.field-up.work/officeinterior/" target=_blank class="text-center mt-4"><p class="text-center">内装事業サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/naisou_site.png" alt="" class="d-block mx-auto mt-3" style="width:100%;"></a>
                             <p class="mt-3">入居から移転、退去まで丸っと一貫して、プランニングいたします。
                                 <br>2次元の図面だけでなく、3Dモデルによる工事イメージのご提案から知り合わせ、VRを使った工事前に仮想空間での体験もできます。
                             </p>
