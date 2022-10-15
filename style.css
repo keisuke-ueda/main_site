@@ -12,17 +12,30 @@ body {
   font-size:0;
 }
 
+
 .main-doc{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
   background: rgb(250, 255, 249);
 }
 
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .main-doc{
+    font-size:11px;
+  }
+}
+
+
 /* footer */
 footer{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
   color: rgb(66, 66, 66);
+}
+@media screen and (min-width:300px) and ( max-width:780px) {
+  footer{
+    font-size:11px;
+  }
 }
 
 .row00{
@@ -59,6 +72,11 @@ footer{
   user-select: none;
   font-size:1.3vw;
 }
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .sidebar p {
+    font-size:18px;
+  }
+}
 
 .sidebar ul a{
   font-size:1.3vw;
@@ -71,6 +89,11 @@ footer{
   border-top: 1px solid rgba(255, 255, 252, 0.5);
   border-bottom: 1px solid rgb(0, 0, 0);
   transition: all 0.4s;
+}
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .sidebar ul a{
+    font-size:18px;
+  }
 }
 
 ul li:hover{
@@ -188,10 +211,29 @@ label #cancel{
     border-radius: 30px;
  } 
 
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .title01{
+    font-size: 30px;
+  } 
+  .title02{
+    font-size: 25px;
+  } 
+ .title03{
+    font-size: 20px;
+  } 
+}
+
+
  /* 注意書き */
  .ex-text{
     font-size:1.0vw;
  }
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .ex-text{
+    font-size:12px;
+  }
+}
+
 
  /* 事業区分 */
 .mini_logo01{

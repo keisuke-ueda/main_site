@@ -11,7 +11,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
         <!-- オリジナルスタイルシート -->
-        <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css" media="screen">
 
         <title>Field-UP Main_site</title>
 
@@ -88,8 +88,8 @@
 
                 </div>
 
-                <div class="row mt-5">
-                    <h1 class="text-center title01" id="title01">事業概要</h1>
+                <div>
+                    <h1 class="text-center title01 m-3" id="title01">事業概要</h1>
                     <div class="text-center border border-success mx-right-5 mx-left-5 p-3">
                         <p >主に4つの事業を軸としており、それぞれの事業単体だけでなく、相乗効果をもたらす今までにない全く新しい事業形態を目指しております。
                             <br>今この瞬間にも常に異常で特殊な成長を続けております。各事業の詳しい内容は事業展開をご覧ください。
@@ -511,7 +511,7 @@
 
                 </div>
 
-                <div class="row mt-5">
+                <div>
                     <h1 class="text-center title01" id="title08">Youtubeチャンネル</h1>
                     <div class="text-center border border-success mx-right-5 mx-left-5 p-5">
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
@@ -551,7 +551,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-5">
+                <div class="mt-5">
                     <h1 class="text-center title01" id="title09">お問い合わせ</h1>
                     <div class="text-center mx-right-5 mx-left-5">
                         <p>何かお困りごとがあれば、先ずはお問い合わせください
