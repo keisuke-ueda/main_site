@@ -89,7 +89,7 @@
                 </div>
 
                 <div>
-                    <h1 class="text-center title01 m-3" id="title01">事業概要</h1>
+                    <h2 class="text-center title01 m-3" id="title01">事業概要</h2>
                     <div class="text-center border border-success mx-right-5 mx-left-5 p-3">
                         <p >主に4つの事業を軸としており、それぞれの事業単体だけでなく、相乗効果をもたらす今までにない全く新しい事業形態を目指しております。
                             <br>今この瞬間にも常に異常で特殊な成長を続けております。各事業の詳しい内容は事業展開をご覧ください。
@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="row mt-5 flexbox">
-                    <h1 class="text-center title01" id="title02">事業展開</h1>
+                    <h2 class="text-center title01" id="title02">事業展開</h2>
 
                     <div class="col-6 mt-3 box1">
                         <h2 class="text-center title02">心理事業</h2>
@@ -272,7 +272,7 @@
                 </div>
 
                 <div class="row mt-5 mb-3 flexbox ">
-                    <h1 class="text-center title01 mb-3" id="title03">代表メッセージ・夢</h1>
+                    <h2 class="text-center title01 mb-3" id="title03">代表メッセージ・夢</h2>
 
                     <div class="col-8 box1"> 
                         <h2 class="text-center title02 mt-3">メッセージ</h2>
@@ -325,13 +325,13 @@
                 </div>
 
                 <div class="row mt-3 mb-5">
-                    <h1 class="text-center title01" id="title04">ちょい見せ講座</h1>
+                    <h2 class="text-center title01" id="title04">ちょい見せ講座</h2>
                     <p class="text-center">思考問題や、講座の資料をちょっとだけお見せします</p>
                     <video src="<?php echo get_template_directory_uri();?>/img/rest.mp4"muted autoplay playsinline loop style="width:100%;"></video>
                 </div>
 
                 <div class="row">
-                    <h1 class="text-center title01" id="title05">ストリートアカデミー</h1>
+                    <h2 class="text-center title01" id="title05">ストリートアカデミー</h2>
                     <p class="text-center">オンラインでいろいろなことを学べるプラットフォーム
                         <br>ここで<b class="text-primary">オンライン講師</b>をしています
                     </p>
@@ -341,7 +341,7 @@
                 </div>
 
                 <div class="row flexbox mt-5">
-                    <h1 class="text-center title01" id="title06">参考実績</h1>
+                    <h2 class="text-center title01" id="title06">参考実績</h2>
                     <table class="table border-striped mx-3">
                         <colgroup>
                             <col class="col-md-2 sp-table1">
@@ -388,7 +388,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <h1 class="text-center title01" id="title07">ギャラリー</h1>
+                    <h2 class="text-center title01" id="title07">ギャラリー</h2>
 
                     <div class="col-6">
                         <p class="text-center title03">オンライン講座</p>
@@ -512,7 +512,7 @@
                 </div>
 
                 <div>
-                    <h1 class="text-center title01" id="title08">Youtubeチャンネル</h1>
+                    <h2 class="text-center title01" id="title08">Youtubeチャンネル</h2>
                     <div class="text-center border border-success mx-right-5 mx-left-5 p-5">
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
                             <br>是非参考にしてください!!
@@ -552,7 +552,7 @@
                 </div>
 
                 <div class="mt-5">
-                    <h1 class="text-center title01" id="title09">お問い合わせ</h1>
+                    <h2 class="text-center title01" id="title09">お問い合わせ</h2>
                     <div class="text-center mx-right-5 mx-left-5">
                         <p>何かお困りごとがあれば、先ずはお問い合わせください
                             <br>解決の糸口を見つけ、お手伝いいたします
