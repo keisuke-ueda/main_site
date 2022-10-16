@@ -25,9 +25,9 @@
 
             <div class="container">
 
-                <div class="row mt-5">
+                <div class="row flexbox">
 
-                    <div class="col-6">
+                    <div class="col-6 mt-5 box1">
                         <h2 class="text-center title02">ニュース</h2>
                         <div class="text-center border border-success mx-3 p-3">
 
@@ -57,7 +57,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-6 mt-5 box2">
                         <h2 class="text-center title02">ブログ</h2>
                         <div class="text-center border border-success mx-3 p-3">
 
@@ -98,10 +98,10 @@
                     </div>
                 </div>
 
-                <div class="row mt-5">
+                <div class="row mt-5 flexbox">
                     <h1 class="text-center title01" id="title02">事業展開</h1>
 
-                    <div class="col-6">
+                    <div class="col-6 mt-3 box1">
                         <h2 class="text-center title02">心理事業</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3">
                             <h3 class="text-center title03">サービス紹介</h3>
@@ -143,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-6 mt-3 box2">
                         <h2 class="text-center title02">システム事業</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3">
                             <h3 class="text-center title03">サービス紹介</h3>
@@ -185,7 +185,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 mt-4">
+                    <div class="col-6 mt-3 box1">
                         <h2 class="text-center title02">省エネ事業</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3">
                             <h3 class="text-center title03">サービス紹介</h3>
@@ -227,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6 mt-4">
+                    <div class="col-6 mt-3 box2">
                         <h2 class="text-center title02">内装事業</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3">
                             <h3 class="text-center title03">サービス紹介</h3>
@@ -271,10 +271,10 @@
 
                 </div>
 
-                <div class="row mt-5 mb-3">
+                <div class="row mt-5 mb-3 flexbox ">
                     <h1 class="text-center title01 mb-3" id="title03">代表メッセージ・夢</h1>
 
-                    <div class="col-8"> 
+                    <div class="col-8 box1"> 
                         <h2 class="text-center title02 mt-3">メッセージ</h2>
                         <div class="border border-success mx-right-5 mx-left-5 p-3 bg-white">
                             <p >いろいろお伝えしたいことはありますが、先ず一番にお伝えしたことは
@@ -311,7 +311,7 @@
 
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-4 box2">
                         <img src="<?php echo get_template_directory_uri();?>/img/representative.jpg" alt="" class="d-block mx-auto mt-3" style="width:50%;">
                         <p class="text-center title03">聴くプロ(心理カウンセラー)</p>
                         <img src="<?php echo get_template_directory_uri();?>/img/vtuber.jpg" alt="" class="d-block mx-auto mt-3" style="width:90%;">
@@ -340,13 +340,13 @@
                     <a href="https://www.street-academy.com/onetime/services/2949" target=_blank class="text-center mt-4"><p class="text-center">相談コーナーはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
                 </div>
 
-                <div class="row mt-5">
+                <div class="row flexbox mt-5">
                     <h1 class="text-center title01" id="title06">参考実績</h1>
-                    <table class="table border-striped mt-3">
+                    <table class="table border-striped mx-3">
                         <colgroup>
-                            <col class="col-md-2">
-                            <col class="col-md-4">
-                            <col class="col-md-6">
+                            <col class="col-md-2 sp-table1">
+                            <col class="col-md-4 sp-table2">
+                            <col class="col-md-6 sp-table3">
                         </colgroup>
                         <thead>
                             <tr>

@@ -328,3 +328,44 @@ p input{
   background:transparent;
   box-shadow:none;
 }
+
+/* スマホレイアウト */
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .flexbox {
+      display: block;
+  }
+  .flexbox .box1 {
+      width: 100%;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .flexbox .box2 {
+      width: 100%;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .flexbox table{
+    overflow-x: auto;
+    width: auto;
+
+  }
+
+  .flexbox table .sp-table1{
+    width: 25%;
+  }
+
+  .flexbox table .sp-table2{
+    width: 35%;
+  }
+
+  .flexbox table .sp-table3{
+    width: 40%;
+  }
+
+
+
+
+}
