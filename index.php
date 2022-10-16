@@ -340,13 +340,13 @@
                     <a href="https://www.street-academy.com/onetime/services/2949" target=_blank class="text-center mt-4"><p class="text-center">相談コーナーはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="" class="d-block mx-auto mt-3" style="width:60%;"></a>
                 </div>
 
-                <div class="row mt-5">
+                <div class="row flexbox mt-5">
                     <h1 class="text-center title01" id="title06">参考実績</h1>
-                    <table class="table border-striped m-3">
+                    <table class="table border-striped mx-3">
                         <colgroup>
-                            <col class="col-md-2">
-                            <col class="col-md-4">
-                            <col class="col-md-6">
+                            <col class="col-md-2 sp-table1">
+                            <col class="col-md-4 sp-table2">
+                            <col class="col-md-6 sp-table3">
                         </colgroup>
                         <thead>
                             <tr>

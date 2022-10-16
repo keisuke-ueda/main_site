@@ -346,4 +346,26 @@ p input{
       margin-left: auto;
       margin-right: auto;
   }
+
+  .flexbox table{
+    overflow-x: auto;
+    width: auto;
+
+  }
+
+  .flexbox table .sp-table1{
+    width: 25%;
+  }
+
+  .flexbox table .sp-table2{
+    width: 35%;
+  }
+
+  .flexbox table .sp-table3{
+    width: 40%;
+  }
+
+
+
+
 }
