@@ -196,7 +196,7 @@ label #cancel{
 
 
   /* タイトル */
-  .title01{
+   .title01{
     font-size: 3.0vw;
  } 
 
@@ -288,11 +288,6 @@ iframe{
 
 article a div img {
   width: 200px;
-}
-
-/* 問合せ */
-p input{
-
 }
 
 /* ページネーション */
