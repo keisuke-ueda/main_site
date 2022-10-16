@@ -328,3 +328,22 @@ p input{
   background:transparent;
   box-shadow:none;
 }
+
+/* スマホレイアウト */
+@media screen and (min-width:300px) and ( max-width:780px) {
+  .flexbox {
+      display: block;
+  }
+  .flexbox .box1 {
+      width: 100%;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .flexbox .box2 {
+      width: 100%;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
