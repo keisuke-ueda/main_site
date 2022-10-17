@@ -14,7 +14,7 @@ Template Name: youtube
 
     </head>
 
-    <title><?php the_title(); ?>|Field-UP</title>
+    <title>Field-UP|Youtube一覧</title>
 
     <body class="body">
         <?php get_header("2");?>

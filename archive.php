@@ -14,7 +14,7 @@ Template Name: blog
 
     </head>
 
-    <title><?php the_title(); ?>|Field-UP</title>
+    <title>Field-UP|ブログ一覧</title>
 
     <body class="body">
         <?php get_header("2");?>
