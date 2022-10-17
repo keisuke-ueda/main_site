@@ -25,7 +25,7 @@ Template Name: youtube
 
                 <h1 class="text-center pt-5">Youtube一覧</h1>
 
-                <div>
+                <div class="mb-3">
                     <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
                     <br>是非参考にしてください!!
                     </p>
