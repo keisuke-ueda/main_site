@@ -10,7 +10,7 @@ Template Name: お問い合わせ
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
-    <title><?php the_title(); ?></title>
+    <title><?php the_title(); ?>|Field-UP</title>
 
     <body>
         <?php get_header();?>

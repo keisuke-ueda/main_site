@@ -8,14 +8,14 @@ Template Name: youtube
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		<meta description="" content="Youtubeチャンネルに上がった動画をピックアップしてけいさいしていきます。チャンネルへのリンクもあるので、是非チェンネル登録と高評価をお願いします。">
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     </head>
 
-    <title><?php the_title(); ?></title>
-    
+    <title><?php the_title(); ?>|Field-UP</title>
+
     <body class="body">
         <?php get_header("2");?>
         
@@ -24,6 +24,13 @@ Template Name: youtube
             <div class="col-8 mx-auto">
 
                 <h1 class="text-center pt-5">Youtube一覧</h1>
+
+                <div>
+                    <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
+                    <br>是非参考にしてください!!
+                    </p>
+                    <a href="https://www.youtube.com/channel/UCGZ9tx2keMqtCSL_UW1vyRw" target=_blank><p>Youtubeチャンネルはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/youtube_home.jpg" alt="Youtubeチャンネル" class="d-block mx-auto mt-3" style="width:100%;"></a>
+                </div>
 
                 <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post();

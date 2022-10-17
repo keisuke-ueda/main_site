@@ -8,13 +8,13 @@ Template Name: news
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		<meta description="" content="Field-UPに関わる最新ニュースを掲載していきます。役立つ情報や、コンテンツの紹介など役立つ情報をどんどん掲載。">
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     </head>
 
-    <title><?php the_title(); ?></title>
+    <title><?php the_title(); ?>|Field-UP</title>
 
     <body>
         <?php get_header("2");?>
