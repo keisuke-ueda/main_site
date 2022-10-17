@@ -14,7 +14,7 @@ Template Name: news
 
     </head>
 
-    <title><?php the_title(); ?>|Field-UP</title>
+    <title>Field-UP|ニュース一覧</title>
 
     <body>
         <?php get_header("2");?>
