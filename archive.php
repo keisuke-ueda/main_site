@@ -11,7 +11,7 @@ Template Name: blog
         <meta description="" content="毎日の仕事や生活の中で代表やエンジニア、職人たちが感じたことや出来事を掲載していきます。他愛のない内容のものもや、役立つ情報などを掲載していきます。">
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <meta name="google-site-verification" content="oA5STTqwO6v6TwvhIEKV_CIAyZN8lHGanT9pVhL_3D8" />
     </head>
 
     <title>Field-UP|ブログ一覧</title>

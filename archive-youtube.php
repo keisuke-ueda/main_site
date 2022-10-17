@@ -11,7 +11,7 @@ Template Name: youtube
 		<meta description="" content="Youtubeチャンネルに上がった動画をピックアップしてけいさいしていきます。チャンネルへのリンクもあるので、是非チェンネル登録と高評価をお願いします。">
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <meta name="google-site-verification" content="oA5STTqwO6v6TwvhIEKV_CIAyZN8lHGanT9pVhL_3D8" />
     </head>
 
     <title>Field-UP|Youtube一覧</title>
