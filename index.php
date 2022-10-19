@@ -18,7 +18,7 @@
         
         <div class="main-doc">
             <video src="<?php echo get_template_directory_uri();?>/img/main_site.mp4" muted autoplay playsinline loop style="width:100%;"></video>
-			<h1 class="text-center text-primary title02">内装・システム・心理学・省エネが<br>異様で最高のコラボ!!</h1>
+			<h1 class="text-center text-primary title02">内装・システム・心理学・省エネが<br>異様で最高のコラボ</h1>
 
             <div class="container">
 

@@ -44,8 +44,10 @@
 
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 
+
 <!-- オリジナルスタイルシート -->
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css" media="screen">
+
 
 <header>
     <?php wp_head(); ?>

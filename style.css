@@ -12,11 +12,10 @@ body {
   font-size:0;
 }
 
-
 .main-doc{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
-  background: rgb(250, 255, 249);
+  background:White;
 }
 
 @media screen and (min-width:300px) and ( max-width:780px) {
@@ -24,7 +23,6 @@ body {
     font-size:11px;
   }
 }
-
 
 /* footer */
 footer{
@@ -205,11 +203,24 @@ label #cancel{
  } 
 
  .title03{
-    font-size: 1.75vw;
-    color: #fff;
-    background: rgb(102, 204, 124);
-    border-radius: 30px;
+    font-size: 1.6vw;
+    color: rgb(0, 0, 0);
+    /* background: rgb(102, 204, 124);
+    border-radius: 30px; */
+    background: #dcffe2;
+    -webkit-box-shadow: 7px 7px 0 #9ad3b3;
+    box-shadow: 7px 7px 0 #9ad3b3;
+
  } 
+
+ h2{
+  border-left: 6px double #000;
+  border-right: 6px double #000;
+  background: #dcffe2;
+ }
+
+ 
+
 
 @media screen and (min-width:300px) and ( max-width:780px) {
   .title01{
