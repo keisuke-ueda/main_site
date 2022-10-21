@@ -15,7 +15,10 @@ body {
 .main-doc{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
-  background:White;
+  /* background:White; */
+  background-image: url('./img/cool-background.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 @media screen and (min-width:300px) and ( max-width:780px) {
@@ -334,6 +337,30 @@ article a div img {
   background:transparent;
   box-shadow:none;
 }
+
+/* スライドショーボタンレイアウト */
+/* 強制上書き (非推奨) */
+.bx-pager  {
+  position:inherit !important; 
+} 
+
+.bx-pager-link {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 10px !important;
+}
+
+/* 表示アニメーション */
+.scroll_up {
+  transition: 0.8s ease-in-out;
+  transform: translateY(30px);
+  opacity: 0;
+}
+.scroll_up.on {
+  transform: translateY(0);
+  opacity: 1.0;
+}
+
 
 /* スマホレイアウト */
 @media screen and (min-width:300px) and ( max-width:780px) {
