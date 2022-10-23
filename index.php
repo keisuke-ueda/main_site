@@ -9,14 +9,17 @@
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <meta name="google-site-verification" content="oA5STTqwO6v6TwvhIEKV_CIAyZN8lHGanT9pVhL_3D8" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
     </head>
 
     <title>Field-UP|総合サービス</title>
-
     <body>
         <?php get_header("1");?>
         
         <div class="main-doc">
+            <!-- スクロール -->
+            
+
             <video src="<?php echo get_template_directory_uri();?>/img/main_site.mp4" muted autoplay playsinline loop style="width:100%;"></video>
 
             <div class="container">
@@ -604,6 +607,36 @@
 
             </div>
         </div>
+        <div id="page_top"><a href="#">TOP</a></div>
     </body>
 
     <?php get_footer();?>
+
+    <script>
+        jQuery(function() {
+  var appear = false;
+  var pagetop = $('#page_top');
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 150) {  //100pxスクロールしたら
+      if (appear == false) {
+        appear = true;
+        pagetop.stop().animate({
+          'bottom': '30px' //下から50pxの位置に
+        }, 300); //0.3秒かけて現れる
+      }
+    } else {
+      if (appear) {
+        appear = false;
+        pagetop.stop().animate({
+          'bottom': '-80px' //下から-50pxの位置に
+        }, 300); //0.3秒かけて隠れる
+      }
+    }
+  });
+  pagetop.click(function () {
+    $('body, html').animate({ scrollTop: 0 }, 300); //0.3秒かけてトップへ戻る
+    return false;
+  });
+});
+
+    </script>
