@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta description="" content="WEBサイト作成、内装設計・工事、デザイン、メンタルサービス、省エネなど関連のないような異業種が合わさった総合サービス事業。各サービスの概要やコンテンツを詰め合わせたサイトになっています。楽しいコンテンツをどんどん追加していく予定です。">
+        <meta description="" content="東京都で、WEBサイト作成、内装設計・工事、デザイン、メンタルサービス、省エネなど関連のないような異業種が合わさった総合サービス事業。各サービスの概要やコンテンツを詰め合わせたサイトになっています。楽しいコンテンツをどんどん追加していく予定です。">
 		
 		<!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
