@@ -12,11 +12,13 @@ body {
   font-size:0;
 }
 
-
 .main-doc{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
-  background: rgb(250, 255, 249);
+  /* background:White; */
+  background-image: url('./img/cool-background.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 @media screen and (min-width:300px) and ( max-width:780px) {
@@ -24,7 +26,6 @@ body {
     font-size:11px;
   }
 }
-
 
 /* footer */
 footer{
@@ -205,11 +206,24 @@ label #cancel{
  } 
 
  .title03{
-    font-size: 1.75vw;
-    color: #fff;
-    background: rgb(102, 204, 124);
-    border-radius: 30px;
+    font-size: 1.6vw;
+    color: rgb(0, 0, 0);
+    /* background: rgb(102, 204, 124);
+    border-radius: 30px; */
+    background: #dcffe2;
+    -webkit-box-shadow: 7px 7px 0 #9ad3b3;
+    box-shadow: 7px 7px 0 #9ad3b3;
+
  } 
+
+ h2{
+  border-left: 6px double #000;
+  border-right: 6px double #000;
+  background: #dcffe2;
+ }
+
+ 
+
 
 @media screen and (min-width:300px) and ( max-width:780px) {
   .title01{
@@ -322,6 +336,78 @@ article a div img {
 .pagination .dots{
   background:transparent;
   box-shadow:none;
+}
+
+/* スライドショーボタンレイアウト */
+/* 強制上書き (非推奨) */
+.bx-pager  {
+  position:inherit !important; 
+} 
+
+.bx-pager-link {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 10px !important;
+}
+
+/* 表示アニメーション */
+.scroll_up {
+  transition: 0.8s ease-in-out;
+  transform: translateY(30px);
+  opacity: 0;
+}
+.scroll_up.on {
+  transform: translateY(0);
+  opacity: 1.0;
+}
+
+/* ページTOP */
+#page_top{
+  width: 90px;
+  height: 60px;
+  position: fixed;
+  right: 0px;
+  bottom: -80px;
+  opacity: 0.6;
+  border: 3px solid #3f98ef;
+  border-radius: 15px;
+  background-color: azure;
+  z-index: 999;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f062';
+  font-size: 25px;
+  color: #3f98ef;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #3f98ef;
+  position: absolute;
+  top: 38px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
 }
 
 /* スマホレイアウト */

@@ -20,7 +20,7 @@ Template Name: ブログページ
     <body>
         <?php get_header("2");?>
 
-        <main class="main-doc pt-5">
+        <main class="main-doc pt-5 pb-5">
             <div class="col-8 mx-auto">
                 <div class="d-block mx-auto">
                     <h1 class="text-center"><?php the_title(); ?></h1>

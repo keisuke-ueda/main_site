@@ -42,10 +42,30 @@
     });
 </script>
 
+<!-- 表示アニメーション -->
+<script>
+    //scroll_effect
+$(window).scroll(function () {
+  var scrollAnimationElm = document.querySelectorAll('.scroll_up');
+  var scrollAnimationFunc = function () {
+    for (var i = 0; i < scrollAnimationElm.length; i++) {
+      var triggerMargin = 100;
+      if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+        scrollAnimationElm[i].classList.add('on');
+      }
+    }
+  }
+  window.addEventListener('load', scrollAnimationFunc);
+  window.addEventListener('scroll', scrollAnimationFunc);
+});
+</script>
+
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
 
 <!-- オリジナルスタイルシート -->
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css" media="screen">
+
 
 <header>
     <?php wp_head(); ?>
