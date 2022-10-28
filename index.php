@@ -180,7 +180,7 @@
                             </table>
                             <a href="https://www.field-up.work/field-up.system/" target=_blank class="text-center mt-4"><p class="text-center">システム事業サイトはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/system_site.png" alt="Field-UPシステム事業" class="d-block mx-auto mt-3" style="width:100%;"></a>
                             <p class="mt-3">業務委託や、請負でWEBサイト制作からアプリ開発、サーバー周辺業務も丸っと行います。
-                                <br>費用不足の場合でも、何ら頭の方法で目的を実現させるための手段を考案します。
+                                <br>費用不足の場合でも、何らかの方法で目的を実現させるための手段を考案します。
                             </p>
                             <p>まずは気軽にお問い合わせください。</p>
                         </div>
