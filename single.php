@@ -22,7 +22,7 @@ Template Name: ブログページ
 
         <main class="main-doc pt-5 pb-5">
             <div class="col-8 mx-auto">
-                <div class="d-block mx-auto">
+                <div class="d-block mx-auto op-1">
                     <h1 class="text-center"><?php the_title(); ?></h1>
                     <p class="text-center"><?php the_content(); ?></p>
                 </div>

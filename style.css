@@ -180,19 +180,19 @@ label #cancel{
   }
 
   .change {
-    cursor: url(./img/b-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/b-f02.cur),auto;
   }
 
   .change a {
-    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/g-f02.cur),auto;
   }
 
   .change label {
-    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/g-f02.cur),auto;
   }
 
   .if {
-    cursor: url(./img/g-iconmonstr-telegram-1-240.cur),auto;
+    cursor: url(./img/g-f02.cur),auto;
   }
 
 
@@ -410,6 +410,11 @@ article a div img {
   text-align: center;
 }
 
+.op-1 {
+  background:rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
 /* スマホレイアウト */
 @media screen and (min-width:300px) and ( max-width:780px) {
   .flexbox {
@@ -445,8 +450,5 @@ article a div img {
   .flexbox table .sp-table3{
     width: 40%;
   }
-
-
-
 
 }
