@@ -91,7 +91,7 @@
 
                 <div class="scroll_up mt-3 ">
                     <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
-                        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto" width="500" height="200" border="0"/>
+                        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto" width="100%"  border="0"/>
                     </a>
                 </div>
 
