@@ -29,7 +29,7 @@
                 <div class="row flexbox">
 
                     <div class="col-6 mt-5 box1 scroll_up">
-                        <h2 class="text-center title02">ニュース</h2>
+                        <h2 class="text-center title02 Larger shadow">ニュース</h2>
                         <div class="text-center  mx-3 p-3 bg-white">
 
                             <div>
@@ -52,14 +52,12 @@
                                 <?php wp_reset_postdata(); ?>
 
                                 <a href="<?php bloginfo('url')?>/news">過去の一覧はコチラ</a>
-
                             </div>
-
                         </div>
                     </div>
 
                     <div class="col-6 mt-5 box2 scroll_up">
-                        <h2 class="text-center title02">ブログ</h2>
+                        <h2 class="text-center title02 Larger shadow">ブログ</h2>
                         <div class="text-center  mx-3 p-3 bg-white">
 
                             <div>
@@ -96,7 +94,7 @@
                 </div>
 
                 <div class="scroll_up">
-                    <h2 class="text-center title01 m-3" id="title01">事業概要</h2>
+                    <h2 class="text-center title01 m-3 Larger shadow" id="title01">事業概要</h2>
                     <div class="text-center mx-right-5 mx-left-5 p-3 bg-white">
                         <p >主に4つの事業を軸としており、それぞれの事業単体だけでなく、相乗効果をもたらす今までにない全く新しい事業形態を目指しております。
                             <br>今この瞬間にも常に異常で特殊な成長を続けております。各事業の詳しい内容は事業展開をご覧ください。
@@ -106,10 +104,10 @@
                 </div>
 
                 <div class="row mt-5 flexbox">
-                    <h2 class="text-center title01 scroll_up" id="title02">事業展開</h2>
+                    <h2 class="text-center title01 scroll_up Larger shadow" id="title02">事業展開</h2>
 
                     <div class="col-6 mt-3 box1 scroll_up">
-                        <h2 class="text-center title02">心理事業</h2>
+                        <h2 class="text-center title02 Larger shadow">心理事業</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white">
                             <h3 class="text-center title03">サービス紹介</h3>
                             <table class="table border-striped mt-3">
@@ -151,7 +149,7 @@
                     </div>
 
                     <div class="col-6 mt-3 box2 scroll_up">
-                        <h2 class="text-center title02">システム事業</h2>
+                        <h2 class="text-center title02 Larger shadow">システム事業</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white">
                             <h3 class="text-center title03">サービス紹介</h3>
                             <table class="table border-striped mt-3">
@@ -193,7 +191,7 @@
                     </div>
 
                     <div class="col-6 mt-3 box1 scroll_up">
-                        <h2 class="text-center title02">省エネ事業</h2>
+                        <h2 class="text-center title02 Larger shadow">省エネ事業</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white">
                             <h3 class="text-center title03">サービス紹介</h3>
                             <table class="table border-striped mt-3">
@@ -235,7 +233,7 @@
                     </div>
 
                     <div class="col-6 mt-3 box2 scroll_up">
-                        <h2 class="text-center title02">内装事業</h2>
+                        <h2 class="text-center title02 Larger shadow">内装事業</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white">
                             <h3 class="text-center title03">サービス紹介</h3>
                             <table class="table border-striped mt-3">
@@ -279,10 +277,10 @@
                 </div>
 
                 <div class="row mt-5 mb-3 flexbox">
-                    <h2 class="text-center title01 mb-3 scroll_up" id="title03">代表メッセージ・夢</h2>
+                    <h2 class="text-center title01 mb-3 scroll_up Larger shadow" id="title03">代表メッセージ・夢</h2>
 
                     <div class="col-8 box1"> 
-                        <h2 class="text-center title02 mt-3 scroll_up">メッセージ</h2>
+                        <h2 class="text-center title02 mt-3 scroll_up Larger shadow">メッセージ</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white scroll_up">
                             <p >いろいろお伝えしたいことはありますが、先ず一番にお伝えしたことは
                                 <br><b class="text-primary">私が『人』が大好き</b>
@@ -297,7 +295,7 @@
                             </p>
                         </div>
 
-                        <h2 class="text-center title02 mt-3 scroll_up">夢</h2>
+                        <h2 class="text-center title02 mt-3 scroll_up Larger shadow">夢</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white scroll_up">
                             <p>カウンセラーの仕事をしてきて、悩みを打ち明ける場所がない、迷いを誰かに相談できない人が世の中にはいっぱいいるという事態を目の当たりにしました。</p>
                             <p>子供から大人まで、年齢や職業問わず<b class="text-primary">人の活動を止めてしまっているのはメンタル</b>が大きくかかわっていることは疑いようもない事実です。</p>
@@ -305,7 +303,7 @@
                             <p>相談を受けた内容の中で、自身の技術で助けになることがあれば、丸っと任せてもらえたら尚嬉しいです。</p>
                         </div>
 
-                        <h2 class="text-center title02 mt-3 scroll_up">プロフィール</h2>
+                        <h2 class="text-center title02 mt-3 scroll_up Larger shadow">プロフィール</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 bg-white scroll_up">
                             <p>岐阜県岐阜市出身</p>
                             <p>大学の理工学部卒業後、某設備機械メーカーに設計士として入社とほぼ同時に心理学の資格学校に入学。
@@ -332,13 +330,13 @@
                 </div>
 
                 <div class="row mt-3 mb-5 scroll_up">
-                    <h2 class="text-center title01" id="title04">ちょい見せ講座</h2>
+                    <h2 class="text-center title01 Larger shadow" id="title04">ちょい見せ講座</h2>
                     <p class="text-center">思考問題や、講座の資料をちょっとだけお見せします</p>
                     <video src="<?php echo get_template_directory_uri();?>/img/rest.mp4"muted autoplay playsinline loop style="width:100%;"></video>
                 </div>
 
-                <!-- SNS -->
-                <div class="row mt-3 mb-5 scroll_up">
+                <!-- SNS コンテver -->
+                <!-- <div class="row mt-3 mb-5 scroll_up">
                     <h2 class="text-center title01" id="title05">公式SNS</h2>
                     <div class="col-md-3">
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100068565794040&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -357,11 +355,48 @@
                         </blockquote>
                         <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
+                </div> -->
+
+                <!-- SNS ボタンver-->
+                <div class="row mt-3 mb-5 scroll_up">
+                    <h2 class="text-center title01 Larger shadow" id="title05">公式SNS</h2>
+                    <p class="text-center">スキルアップのためのコンテンツや、ためになるカン、コツのノウハウを定期大好評公開中!!</p>
+                    <div class="row d-block mx-auto" style="width:30%;">
+                        <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
+                            <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="d-block mx-auto mt-3 Larger shadow">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="https://www.facebook.com/profile.php?id=100068565794040&sk=reels_tab" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Facebook.png" alt="facebook" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://www.instagram.com/fieldupx/" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Instagram.png" alt="instagram" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://www.tiktok.com/@field_up_x?lang=ja-JP" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/TikTok.png" alt="TikTok" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="https://twitter.com/FieldUP_X" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+
+
+
                 
                 <!-- ストアカ -->
                 <div class="row scroll_up">
-                    <h2 class="text-center title01" id="title05">ストリートアカデミー</h2>
+                    <h2 class="text-center title01 Larger shadow" id="title05">ストリートアカデミー</h2>
                     <p class="text-center">オンラインでいろいろなことを学べるプラットフォーム
                         <br>ここで<b class="text-primary">オンライン講師</b>をしています
                     </p>
@@ -371,7 +406,7 @@
                 </div>
 
                 <div class="row flexbox mt-5">
-                    <h2 class="text-center title01 scroll_up" id="title06">参考実績</h2>
+                    <h2 class="text-center title01 scroll_up Larger shadow" id="title06">参考実績</h2>
                     <table class="table border-striped mx-3 bg-white d-block mx-auto scroll_up">
                         <colgroup>
                             <col class="col-md-2 sp-table1">
@@ -418,7 +453,7 @@
                 </div>
 
                 <div class="row mt-5 scroll_up">
-                    <h2 class="text-center title01" id="title07">ギャラリー</h2>
+                    <h2 class="text-center title01 Larger shadow" id="title07">ギャラリー</h2>
 
                     <div class="col-9 d-block mx-auto">
                         <div class="slider">
@@ -581,7 +616,8 @@
                     </div>
                 </div>
 
-                <div class="scroll_up">
+                <!-- YouTubeチャンネル -->
+                <!-- <div class="scroll_up">
                     <h2 class="text-center title01" id="title08">Youtubeチャンネル</h2>
                     <div class="text-center  mx-right-5 mx-left-5 p-5">
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
@@ -621,10 +657,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="mt-5 pb-5 scroll_up">
-                    <h2 class="text-center title01" id="title09">お問い合わせ</h2>
+                    <h2 class="text-center title01 Larger shadow" id="title09">お問い合わせ</h2>
                     <div class="text-center mx-right-5 mx-left-5 d-block mx-auto">
                         <p>何かお困りごとがあれば、先ずはお問い合わせください
                             <br>解決の糸口を見つけ、お手伝いいたします
