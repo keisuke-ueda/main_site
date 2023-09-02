@@ -71,7 +71,7 @@ $(window).scroll(function () {
             <li><a href="<?php bloginfo('url')?>/#title05"><img src="<?php echo get_template_directory_uri();?>/img/kouza.png" alt="ストリートアカデミーアイコン" style="width:10%;">ストリートアカデミー</a></li>
             <li><a href="<?php bloginfo('url')?>/#title06"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-bar-chart-thin-240.png" alt="参考実績アイコン" style="width:10%;">参考実績</a></li>
             <li><a href="<?php bloginfo('url')?>/#title07"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-photo-camera-thin-240.png" alt="ギャラリーアイコン" style="width:10%;">ギャラリー</a></li>
-            <li><a href="<?php bloginfo('url')?>/#title08"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-caret-right-circle-filled-240.png" alt="Youtubeアイコン" style="width:10%;">Youtubeチャンネル</a></li>
+            <!-- <li><a href="<?php bloginfo('url')?>/#title08"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-caret-right-circle-filled-240.png" alt="Youtubeアイコン" style="width:10%;">Youtubeチャンネル</a></li> -->
             <li><a href="<?php bloginfo('url')?>/#title09"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-gmail-5-240.png" alt="お問い合わせアイコン" style="width:10%;">お問い合わせ</a></li>
         </ul>
     </div>
