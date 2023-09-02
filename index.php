@@ -372,13 +372,16 @@
                 </div> -->
 
                 <!-- SNS ボタンver-->
-                <div class="row mt-3 mb-5 scroll_up">
+                <!-- PC -->
+                <div class="row mt-3 mb-5 scroll_up pc-view">
                     <h2 class="text-center title01 Larger shadow" id="title05">公式SNS</h2>
                     <p class="text-center">スキルアップのためのコンテンツや、ためになるカン、コツのノウハウを定期大好評公開中!!</p>
-                    <div class="row d-block mx-auto" style="width:30%;">
-                        <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
-                            <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="d-block mx-auto mt-3 Larger shadow">
-                        </a>
+                    <div class="row d-block mx-auto " style="width:30%;">
+                            <div class="col">
+                                <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
+                                    <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="mt-3 Larger shadow">
+                                </a>
+                            </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
@@ -397,6 +400,40 @@
                             </a>
                         </div>
                         <div class="col-md-3">
+                            <a href="https://twitter.com/FieldUP_X" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SP -->
+                <div class="row mt-3 mb-5 scroll_up sp-view">
+                    <h2 class="text-center title01 Larger shadow" id="title05">公式SNS</h2>
+                    <p class="text-center mt-5">スキルアップのためのコンテンツや、ためになるカン、コツのノウハウを定期大好評公開中!!</p>
+                    
+                    <div class="ms-5 me-5 mb-3">
+                        <div class="">
+                            <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="mt-3 Larger shadow">
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.facebook.com/profile.php?id=100068565794040&sk=reels_tab" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Facebook.png" alt="facebook" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.instagram.com/fieldupx/" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Instagram.png" alt="instagram" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.tiktok.com/@field_up_x?lang=ja-JP" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/TikTok.png" alt="TikTok" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
                             <a href="https://twitter.com/FieldUP_X" target=_blank>
                                 <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
                             </a>
