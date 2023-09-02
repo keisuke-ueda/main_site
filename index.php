@@ -412,10 +412,10 @@
                     <h2 class="text-center title01 Larger shadow" id="title05">公式SNS</h2>
                     <p class="text-center mt-5">スキルアップのためのコンテンツや、ためになるカン、コツのノウハウを定期大好評公開中!!</p>
                     
-                    <div class="ms-5 me-5 mb-3">
+                    <div class="col mb-3">
                         <div class="">
                             <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
-                                <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="mt-3 Larger shadow">
+                                <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
                             </a>
                         </div>
                         <div class="">
