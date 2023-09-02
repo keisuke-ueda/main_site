@@ -86,10 +86,24 @@
                     </div>
 
                 </div>
+                
+                <!-- バナー -->
+                <div class="scroll_up mt-3">
+                    <a title="Qualitas Plus Field-UP 上田敬介" href="https://www.qualitas-web.com/book1vgdb.html" target="_blank">
+                        <img src="https://www.qualitas-web.com/banner/new-1-202309-m02zb.png" alt="Qualitas Plus Field-UP 上田敬介" width="350" height="240" border="0" class="d-block mx-auto"/>
+                    </a>
+                    <p class="text-center">この度、Qualitasに取り上げられました。</p>
+                </div>
 
                 <div class="scroll_up mt-3 ">
                     <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
-                        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto" width="50%"  border="0"/>
+                        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="ザ・イノベーター" class="d-block mx-auto" width="50%"  border="0"/>
+                    </a>
+                </div>
+
+                <div class="scroll_up mt-3 ">
+                    <a title="CMPANY TNAK Field-UP 上田敬介" href="http://www.companytank.jp/interview/202309/16764/" target="_blank">
+                        <img src="<?php echo get_template_directory_uri();?>/img/16764_b.jpg" alt="CMPANY TNAK" class="d-block mx-auto" width="50%"  border="0"/>
                     </a>
                 </div>
 
