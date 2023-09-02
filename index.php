@@ -86,10 +86,24 @@
                     </div>
 
                 </div>
+                
+                <!-- バナー -->
+                <div class="scroll_up mt-3">
+                    <a title="Qualitas Plus Field-UP 上田敬介" href="https://www.qualitas-web.com/book1vgdb.html" target="_blank">
+                        <img src="https://www.qualitas-web.com/banner/new-1-202309-m02zb.png" alt="Qualitas Plus Field-UP 上田敬介" width="350" height="240" border="0" class="d-block mx-auto"/>
+                    </a>
+                    <p class="text-center">この度、Qualitasに取り上げられました。</p>
+                </div>
 
                 <div class="scroll_up mt-3 ">
                     <a title="THE INNOVATOR Field-UP 上田敬介" href="https://the-innovator.jp/interviewees/ueda_keisuke/" target="_blank">
-                        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="Field-UP 上田敬介" class="d-block mx-auto" width="50%"  border="0"/>
+                        <img src="https://the-innovator.jp/img/banner/TI_banner01.jpg" alt="ザ・イノベーター" class="d-block mx-auto" width="50%"  border="0"/>
+                    </a>
+                </div>
+
+                <div class="scroll_up mt-3 ">
+                    <a title="CMPANY TNAK Field-UP 上田敬介" href="http://www.companytank.jp/interview/202309/16764/" target="_blank">
+                        <img src="<?php echo get_template_directory_uri();?>/img/16764_b.jpg" alt="CMPANY TNAK" class="d-block mx-auto" width="50%"  border="0"/>
                     </a>
                 </div>
 
@@ -358,13 +372,16 @@
                 </div> -->
 
                 <!-- SNS ボタンver-->
-                <div class="row mt-3 mb-5 scroll_up">
+                <!-- PC -->
+                <div class="row mt-3 mb-5 scroll_up pc-view">
                     <h2 class="text-center title01 Larger shadow" id="title05">公式SNS</h2>
                     <p class="text-center">スキルアップのためのコンテンツや、ためになるカン、コツのノウハウを定期大好評公開中!!</p>
-                    <div class="row d-block mx-auto" style="width:30%;">
-                        <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
-                            <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="d-block mx-auto mt-3 Larger shadow">
-                        </a>
+                    <div class="row d-block mx-auto " style="width:30%;">
+                            <div class="col">
+                                <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
+                                    <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="mt-3 Larger shadow">
+                                </a>
+                            </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3">
@@ -383,6 +400,40 @@
                             </a>
                         </div>
                         <div class="col-md-3">
+                            <a href="https://twitter.com/FieldUP_X" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SP -->
+                <div class="row mt-3 mb-5 scroll_up sp-view">
+                    <h2 class="text-center title01 Larger shadow" id="title05">公式SNS</h2>
+                    <p class="text-center mt-5">スキルアップのためのコンテンツや、ためになるカン、コツのノウハウを定期大好評公開中!!</p>
+                    
+                    <div class="col mb-3">
+                        <div class="">
+                            <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.facebook.com/profile.php?id=100068565794040&sk=reels_tab" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Facebook.png" alt="facebook" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.instagram.com/fieldupx/" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/Instagram.png" alt="instagram" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
+                            <a href="https://www.tiktok.com/@field_up_x?lang=ja-JP" target=_blank>
+                                <img src="<?php echo get_template_directory_uri();?>/img/TikTok.png" alt="TikTok" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                            </a>
+                        </div>
+                        <div class="">
                             <a href="https://twitter.com/FieldUP_X" target=_blank>
                                 <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
                             </a>

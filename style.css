@@ -12,6 +12,10 @@ body {
   font-size:0;
 }
 
+.sp-view{
+  display:none;
+}
+
 .main-doc{
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
@@ -26,7 +30,15 @@ body {
   .main-doc{
     font-size:11px;
   }
+  .pc-view{
+    display:none;
+  }
+  .sp-view{
+    display:inline;
+  }
 }
+
+
 
 /* footer */
 footer{
