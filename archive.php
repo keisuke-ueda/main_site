@@ -19,8 +19,11 @@ Template Name: blog
     <body class="body">
         <?php get_header("2");?>
         
+        <div id="wrapper">
+            <canvas id="particle"></canvas>
+        </div>
         <main class="main-doc">
- 
+            
             <div class="col-8 mx-auto">
 
                 <h1 class="text-center pt-5">ブログ一覧</h1>
@@ -55,9 +58,9 @@ Template Name: blog
                 </div> 
                 
             </div>
-
+            <?php get_footer();?>
         </main>
 
     </body>
 
-    <?php get_footer();?>
+    

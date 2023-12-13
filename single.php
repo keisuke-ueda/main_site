@@ -20,6 +20,10 @@ Template Name: ブログページ
     <body>
         <?php get_header("2");?>
 
+        <div id="wrapper">
+            <canvas id="particle"></canvas>
+        </div>
+
         <main class="main-doc pt-5 pb-5">
             <div class="col-8 mx-auto">
                 <div class="d-block mx-auto op-1">
@@ -27,8 +31,9 @@ Template Name: ブログページ
                     <p class="text-center"><?php the_content(); ?></p>
                 </div>
             </div>
+        <?php get_footer();?>
         </main>
         
     </body>
 
-    <?php get_footer();?>
+    

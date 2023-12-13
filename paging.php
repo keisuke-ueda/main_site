@@ -1,6 +1,5 @@
 <?php
 
- 
 
 global $wp_rewrite;
 

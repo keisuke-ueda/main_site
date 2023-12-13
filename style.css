@@ -1,11 +1,34 @@
-/*
-Theme Name:main_site
-*/
+/* Theme Name:main_site */
 
 *{
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* 背景アニメ */
+/*========= 粒子を描画するエリア設定 ===============*/
+
+#wrapper{
+/*描画されるテキストを中央寄せにする*/
+  position:fixed;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#particle{
+  width:100%;
+  height: 100vh;
+  vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
+}
+
+.top-space {
+  height: 50vw;
+}
+@media screen and (max-width:1024px) {
+  .top-space {
+    height: 120vw;
+  }
 }
 
 body {
@@ -17,15 +40,16 @@ body {
 }
 
 .main-doc{
+  width:100%;
+  position:absolute;
   font-size:1.3vw;
   font-family: "M PLUS Rounded 1c";
   /* background:White; */
-  background: radial-gradient(#ffffff, #e0fcdd);
+  /* background: radial-gradient(#ffffff, #e0fcdd); */
   /* background-image: url('./img/cool-background.png'); */
   background-attachment: fixed;
   background-size: cover;
 }
-
 @media screen and (min-width:300px) and ( max-width:780px) {
   .main-doc{
     font-size:11px;
@@ -39,7 +63,6 @@ body {
 }
 
 
-
 /* footer */
 footer{
   font-size:1.3vw;
@@ -51,8 +74,7 @@ footer{
     font-size:11px;
   }
 }
-
-.row00{
+.footer-row{
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -68,18 +90,16 @@ footer{
     box-sizing: border-box;
     background:rgba(255, 255, 255, 0.7);
 }
-
 .sidebar {
     position: fixed;
     top: -800px;
     right: 0px;
     z-index: 998;
     box-sizing: border-box;
-    background:rgb(112, 216, 164);
+    background:rgb(112, 216, 164, 0.7);
     padding: 10px;
     transition: all 0.4s;
 }
-
 .sidebar p {
   color: rgb(255, 255, 255);
   text-align:center;
@@ -91,7 +111,6 @@ footer{
     font-size:18px;
   }
 }
-
 .sidebar ul a{
   font-size:1.3vw;
   display: block;
@@ -109,25 +128,20 @@ footer{
     font-size:18px;
   }
 }
-
 ul li:hover{
   width: 110%;
 }
-
 .sidebar ul a img{
   margin-right: 16px;
 }
-
 #check{
   display:none;
 }
-
 label #hambarger,
 label #cancel{
-  background:rgba(255, 255, 255, 1);
+  background:rgba(255, 255, 255, 0.7);
   border-radius: 5px;
 }
-
 label #hambarger{
   z-index: 997;
   position: fixed;
@@ -135,7 +149,6 @@ label #hambarger{
   right: 0px;
   transition: all 0.5s;
 }
-
 label #cancel{
   z-index: 999;
   position: fixed;
@@ -143,26 +156,21 @@ label #cancel{
   right: 0px;
   transition: all 0.5s;
 }
-
 #check:checked ~ .sidebar {
   top: 0px;
 }
-
 #check:checked ~ label #hambarger {
   top: 500px;
   opacity: 0;
   pointer-events: none;
 }
-
 #check:checked ~ label #cancel {
   top: 0px;
 }
 
+
+
 /* 特殊部品 */
-
-
-
-
 
 /* マウスストーカー */
 .star {
@@ -176,53 +184,43 @@ label #cancel{
     z-index: 2;
     animation: star 2.5s ease-out 0s forwards;
   }
-  
   @keyframes star {
     0% {
       transform: translateY(0) rotate(-5deg);
       opacity: 0;
     }
-  
     5% {
       opacity: 1;
     }
-  
     80% {
       opacity: 1;
     }
-  
     100% {
       transform: translateY(50px) rotate(5deg);
       opacity: 0;
     }
   }
-
-  .change {
+  /* .change {
     cursor: url(./img/b-f02.cur),auto;
   }
-
   .change a {
     cursor: url(./img/g-f02.cur),auto;
   }
-
   .change label {
     cursor: url(./img/g-f02.cur),auto;
   }
-
   .if {
     cursor: url(./img/g-f02.cur),auto;
-  }
+  } */
 
 
   /* タイトル */
    .title01{
     font-size: 3.0vw;
  } 
-
  .title02{
     font-size: 2.5vw;
  } 
-
  .title03{
     font-size: 1.6vw;
     color: rgb(0, 0, 0);
@@ -231,18 +229,12 @@ label #cancel{
     background: #dcffe2;
     -webkit-box-shadow: 7px 7px 0 #9ad3b3;
     box-shadow: 7px 7px 0 #9ad3b3;
-
  } 
-
  h2{
   border-left: 6px double #000;
   border-right: 6px double #000;
   background: #dcffe2;
  }
-
- 
-
-
 @media screen and (min-width:300px) and ( max-width:780px) {
   .title01{
     font-size: 30px;
@@ -254,7 +246,6 @@ label #cancel{
     font-size: 14px;
   } 
 }
-
 
  /* 注意書き */
  .ex-text{
@@ -276,7 +267,6 @@ label #cancel{
   color:white;
   font-size: 1.0vw;
 }
-
 .mini_logo02{
   background:rgb(142, 217, 240);
   border-radius: 5px;
@@ -285,7 +275,6 @@ label #cancel{
   color:white;
   font-size: 1.0vw;
 }
-
 .mini_logo03{
   background:rgb(207, 184, 79);
   border-radius: 5px;
@@ -294,7 +283,6 @@ label #cancel{
   color:white;
   font-size: 1.0vw;
 }
-
 .mini_logo04{
   background:rgb(89, 192, 86);
   border-radius: 5px;
@@ -303,7 +291,6 @@ label #cancel{
   color:white;
   font-size: 1.0vw;
 }
-
 .mini_logo05{
   background:rgb(229, 142, 240);
   border-radius: 5px;
@@ -313,11 +300,11 @@ label #cancel{
   font-size: 1.0vw;
 }
 
+
 /* 投稿ページ設定 */
 iframe{
   width:100%;
 }
-
 article a div img {
   width: 200px;
 }
@@ -337,8 +324,7 @@ article a div img {
   color:#333;
   border-radius:3px;
   box-shadow:0 3px 3px #999;
-  background:#fff;
-   
+  background:#ffffff;
 }
 .pagination .current{
   padding:20px 25px;
@@ -361,7 +347,6 @@ article a div img {
 .bx-pager  {
   position:inherit !important; 
 } 
-
 .bx-pager-link {
   width: 25px !important;
   height: 25px !important;
@@ -433,6 +418,225 @@ article a div img {
   padding: 20px;
 }
 
+.tec-bg {
+  background-color: rgba(246, 255, 249, 0.897);
+}
+
+/* フラットボタン */
+.btn,a.btn,button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  border: 0;
+}
+a.btn-flat {
+  overflow: hidden;
+  padding: 1.5rem 6rem;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+a.btn-flat span {
+  position: relative;
+  z-index: 1;
+}
+a.btn-flat:before {
+  position: absolute;
+  top: 0;
+  left: calc(-150% + 50px);
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: rotate(45deg) translateX(0) translateY(0);
+  transform: rotate(45deg) translateX(0) translateY(0);
+  background: #0af7ff;
+}
+a.btn-flat:after {
+  position: absolute;
+  top: -400%;
+  right: calc(-150% + 50px);
+  width: 150%;
+  height: 500%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: rotate(45deg) translateX(0) translateY(0);
+  transform: rotate(45deg) translateX(0) translateY(0);
+  background: #0af7ff;
+}
+a.btn-flat:hover:before {
+  -webkit-transform: rotate(45deg) translateX(0) translateY(-50%);
+  transform: rotate(45deg) translateX(0) translateY(-50%);
+}
+a.btn-flat:hover:after {
+  -webkit-transform: rotate(45deg) translateX(0) translateY(50%);
+  transform: rotate(45deg) translateX(0) translateY(50%);
+}
+
+/* 3Dボタン */
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+a.btn-3d-flip {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-perspective: 600px;
+  perspective: 600px;
+  font-size: 1.3rem;
+}
+a.btn-3d-flip:hover .btn-3d-flip-box {
+  -webkit-transform: translateY(-50%) rotateX(90deg);
+  transform: translateY(-50%) rotateX(90deg);
+}
+.btn-3d-flip-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.btn-3d-flip-box-face {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 1.5rem 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.btn-3d-flip-box-face--front {
+  background: #00bcd4;
+}
+.btn-3d-flip-box-face--back {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform: translateY(-1px) rotateX(-90deg);
+  transform: translateY(-1px) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: #009eb3;
+}
+.btn-3d-flip-box-face--front2 {
+  background: #ff5100;
+}
+.btn-3d-flip-box-face--back2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform: translateY(-1px) rotateX(-90deg);
+  transform: translateY(-1px) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: #ca4000;
+}
+.btn-3d-flip-box-face--front3 {
+  background: #16c000;
+}
+.btn-3d-flip-box-face--back3 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform: translateY(-1px) rotateX(-90deg);
+  transform: translateY(-1px) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: #118f00;
+}
+.btn-3d-flip-box-face--front4 {
+  background: #d8a600;
+}
+.btn-3d-flip-box-face--back4 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform: translateY(-1px) rotateX(-90deg);
+  transform: translateY(-1px) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: #ac8400;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 1rem;
+}
+
+
+
+
+
+/* 横スクロール */
+.side-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-scroll-list-wrapper {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.side-scroll-list {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: flex;
+  gap: 0 60px;
+}
+.side-scroll-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 420px;
+  background-color: #19ff25;
+  color: #1b1717;
+  font-size: 32px;
+  font-weight: 700;
+}
+.side-scroll-item:hover::after {
+  
+}
+.side-scroll-item + .side-scroll-item {
+  margin-left: 60px;
+}
+
+
+
+
+
 /* スマホレイアウト */
 @media screen and (min-width:300px) and ( max-width:780px) {
   .flexbox {
@@ -450,23 +654,17 @@ article a div img {
       margin-left: auto;
       margin-right: auto;
   }
-
   .flexbox table{
     overflow-x: auto;
     width: auto;
-
   }
-
   .flexbox table .sp-table1{
     width: 25%;
   }
-
   .flexbox table .sp-table2{
     width: 35%;
   }
-
   .flexbox table .sp-table3{
     width: 40%;
   }
-
 }

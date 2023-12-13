@@ -1,6 +1,6 @@
     <footer class="bg-light">
 
-        <div class="row00">
+        <div class="footer-row">
 
             <div class="col-4">
                 <img src="<?php echo get_template_directory_uri();?>/img/屋号ロゴ-01.png" alt="屋号ロゴ" class="d-block mx-auto mt-3 mb-3" style="width:90%;">

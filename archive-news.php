@@ -19,8 +19,11 @@ Template Name: news
     <body>
         <?php get_header("2");?>
             
-        <main class="main-doc">
+        <div id="wrapper">
+            <canvas id="particle"></canvas>
+        </div>
 
+        <main class="main-doc">
             <div class="col-8 mx-auto">
 
                 <h1 class="text-center pt-5">ニュース一覧</h1>
@@ -55,9 +58,8 @@ Template Name: news
                 </div> 
                 
             </div>
+            <?php get_footer();?>
     
         </main>
 
     </body>
-
-    <?php get_footer();?>
