@@ -62,9 +62,8 @@ Template Name: youtube
                 </div> 
                 
             </div>
+            <?php get_footer();?>
 
         </main>
 
     </body>
-
-    <?php get_footer();?>

@@ -8,8 +8,6 @@ add_theme_support( 'post-thumbnails' );
 
 
 
-
-
 /*【出力カスタマイズ】検索結果のタイトルをカスタマイズ */
 
 function wp_search_title($search_title){

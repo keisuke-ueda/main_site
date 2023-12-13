@@ -15,6 +15,9 @@ Template Name: お問い合わせ
     <body>
         <?php get_header();?>
         
+            <div id="wrapper">
+                <canvas id="particle"></canvas>
+            </div>
             <div class="main-doc">
                 <h1 class="text-center"><?php the_title(); ?></h1>
 
