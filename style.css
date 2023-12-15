@@ -15,6 +15,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100vh;
 }
 #particle{
   width:100%;
@@ -42,7 +43,7 @@ body {
 .main-doc{
   width:100%;
   position:absolute;
-  font-size:1.3vw;
+  font-size:1.1vw;
   font-family: "M PLUS Rounded 1c";
   /* background:White; */
   /* background: radial-gradient(#ffffff, #e0fcdd); */
@@ -422,6 +423,7 @@ article a div img {
   background-color: rgba(246, 255, 249, 0.897);
 }
 
+
 /* フラットボタン */
 .btn,a.btn,button.btn {
   font-size: 1.6rem;
@@ -593,48 +595,20 @@ a.btn-3d-flip:hover .btn-3d-flip-box {
   right: 1rem;
 }
 
-
-
-
-
 /* 横スクロール */
-.side-scroll {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.slider img {
+  width:100%;/*スライダー内の画像を横幅100%に*/
+  height:auto;
 }
-.side-scroll-list-wrapper {
-  position: relative;
-  width: 100%;
-  height: 700px;
+.slider .slick-slide {
+  margin:0 10px;/*スライド左右の余白調整*/
 }
-.side-scroll-list {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  display: flex;
-  gap: 0 60px;
+.bx-pager {
+  display: none;
 }
-.side-scroll-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  height: 420px;
-  background-color: #19ff25;
-  color: #1b1717;
-  font-size: 32px;
-  font-weight: 700;
+.bx-wrapper {
+  margin-bottom: 0px;
 }
-.side-scroll-item:hover::after {
-  
-}
-.side-scroll-item + .side-scroll-item {
-  margin-left: 60px;
-}
-
-
-
 
 
 /* スマホレイアウト */
