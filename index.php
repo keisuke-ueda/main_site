@@ -11,10 +11,6 @@
         <meta name="google-site-verification" content="oA5STTqwO6v6TwvhIEKV_CIAyZN8lHGanT9pVhL_3D8" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
 
-        <!-- 横スクロール -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
-
     </head>
 
     <title>Field-UP|総合サービス</title>
@@ -393,7 +389,7 @@
 
                     <div class="row">
                         <div class="col-md-4 mt-1 mb-1">
-                            <img src="<?php echo get_template_directory_uri();?>/img/Ecxel_1.jpg" alt="カウンセリング、学習との融合" class="d-block mx-auto" style="width:100%">
+                            <img src="<?php echo get_template_directory_uri();?>/img/vr技術.jpg" alt="VR技術" class="d-block mx-auto" style="width:100%">
                             <div class="text-center mt-1 mb-1">
                                 <a href="https://field-up.work/VR_Library_new/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
                                     <span class="btn-3d-flip-box">
@@ -404,9 +400,9 @@
                             </div>
                         </div>
                         <div class="col-md-4 mt-1 mb-1">
-                            <img src="<?php echo get_template_directory_uri();?>/img/Ecxel_1.jpg" alt="カウンセリング、学習との融合" class="d-block mx-auto" style="width:100%">
+                            <img src="<?php echo get_template_directory_uri();?>/img/Vtuberteacher.jpg" alt="新しい学習の形" class="d-block mx-auto" style="width:100%">
                             <div class="text-center mt-1 mb-1">
-                                <a href="https://field-up.work/VR_Library_new/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
+                                <a href="https://www.youtube.com/watch?v=NFIskiYb-r4/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
                                     <span class="btn-3d-flip-box">
                                         <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">学習&nbsp;x&nbsp;Virtual</span>
                                         <span class="btn-3d-flip-box-face btn-3d-flip-box-face--back2">Vtuberシステム</span>
@@ -415,9 +411,9 @@
                             </div>
                         </div>
                         <div class="col-md-4 mt-1 mb-1">
-                            <img src="<?php echo get_template_directory_uri();?>/img/Ecxel_1.jpg" alt="カウンセリング、学習との融合" class="d-block mx-auto" style="width:100%">
+                            <img src="<?php echo get_template_directory_uri();?>/img/設備デジタル.jpg" alt="エネルギーのデジタル化" class="d-block mx-auto" style="width:100%">
                             <div class="text-center mt-1 mb-1">
-                                <a href="https://field-up.work/VR_Library_new/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
+                                <a href="https://www.youtube.com/watch?v=5HJpKNcW-8U/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
                                     <span class="btn-3d-flip-box">
                                         <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front3">設備&nbsp;x&nbsp;Virtual</span>
                                         <span class="btn-3d-flip-box-face btn-3d-flip-box-face--back3">不可視を可視化</span>
@@ -430,7 +426,7 @@
                     <div class="col-9 d-block mx-auto">
                         <p>既にいくつかの分野で、Virtual技術の融合を実現できており、これからもさらに新しい方を求めて技術力の向上を図り続けます。<br>
                         自社技術に活用したいということがあれば、お気軽にお問い合わせください。</P>
-                        <div class="text-center">
+                        <div class="text-center scroll_up">
                             <a href="#title09" class="btn btn-flat" onclick="butotnClick()"><span>お問い合わせ</span></a>
                         </div>
                         
@@ -440,197 +436,60 @@
 
 
 
-                <section class="side-scroll section row mt-4">
-                    <div class="side-scroll-container container">
-                        <h2 class="heading text-center title01 Larger shadow" id="title07">
-                            ギャラリー
-                        </h2>
-                        <div class="side-scroll-list-wrapper">
-                            <ul class="side-scroll-list">
-                                <li class="side-scroll-item">
-                                    <!-- <p class="text-center title03">オンライン講座</p> -->
-                                    <!-- <img src="<?php echo get_template_directory_uri();?>/img/brainpower.jpg" alt="脳力向上講座" class="d-block mx-auto mt-3" style="width:100%;"> -->
-                                </li>
-                                <li class="side-scroll-item">Card</li>
-                                <li class="side-scroll-item">Card</li>
-                                <li class="side-scroll-item">Card</li>
-                                <li class="side-scroll-item">Card</li>
-                                <li class="side-scroll-item">Card</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-
-
-
-
-
-
-
-
-                <!-- 実績 -->
+                <!-- ギャラリー -->
                 <div class="row mt-5 scroll_up">
                     <h2 class="text-center title01 Larger shadow" id="title07">ギャラリー</h2>
-
-                    <div class="col-9 d-block mx-auto">
-                        <div class="slider">
-                            <!-- オンライン講座 -->
-                            <div>
-                                
-                            </div>
-                            <div>
-                                <p class="text-center title03">オンライン講座</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/JW_CAD.jpg" alt="JW_CAD講座" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">オンライン講座</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/HTML_CSS.png" alt="HTML・CSS講座" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">オンライン講座</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/Ecxel_1.jpg" alt="初級Excel講座" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- 配線整理・ネットワーク改善 -->
-                            <div>
-                                <p class="text-center title03">配線整理</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/net-1.jpg" alt="配線現場" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">ネットワーク構成図</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/net-2.jpg" alt="配線構成図" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- 防犯カメラ工事 -->
-                            <div>
-                                <p class="text-center title03">防犯カメラ設定画面</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/camera-1.jpg" alt="防犯カメラ設定画面" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">配線工事</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/camera-2.jpg" alt="防犯カメラ" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- 映像撮影 -->
-                            <div>
-                                <p class="text-center title03">映像撮影現場</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/movies.jpg" alt="撮影現場" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- チラシ・ポイントカードデザイン/制作 -->
-                            <div>
-                                <p class="text-center title03">飲食店ポイントカード制作</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/digin1.jpg" alt="飲食店ポイントカード" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">飲食店チラシ制作</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/digin2.jpg" alt="飲食店チラシ" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- タンク工事・省エネコンサル -->
-                            <div>
-                                <p class="text-center title03">軟水タンク製作図</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/tank-2.jpg" alt="軟水タンク製作図" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">現地軟水タンク撤去</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/tank-1.jpg" alt="現場軟水タンク" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">エネルギーフローシート作図</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/fow.jpg" alt="エネルギーフローシート" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- 移転業 -->
-                            <div>
-                                <p class="text-center title03">オフィス移転作業</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/iten.jpg" alt="オフィス移転" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- エアコン工事 -->
-                            <div>
-                                <p class="text-center title03">冷媒管接続工事</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/air-1.jpg" alt="冷媒管接続工事" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">室外機設置</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/air-2.jpg" alt="室外機設置" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">室外機配線工事</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/air-3.jpg" alt="室外機配線工事" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">冷媒管切り離し</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/air-4.jpg" alt="冷媒管切り離し" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- 廃棄・解体 -->
-                            <div>
-                                <p class="text-center title03">鉄骨切断</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/kaitai-4.jpg" alt="鉄骨切断" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">書庫解体 1</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/kaitai-2.jpg" alt="書庫解体1" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">廃棄鉄骨材など</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/kaitai-3.jpg" alt="廃棄鉄骨材など" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">書庫解体 2</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/kaitai-1.jpg" alt="書庫解体2" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- デマンド機器工事 -->
-                            <div>
-                                <p class="text-center title03">デマンド機器設置位確認</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/demand-1.jpg" alt="デマンド機器設置位" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">デマンド機器配線</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/demand-2.jpg" alt="デマンド機器配線" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <!-- パーティション工事 -->
-                            <div>
-                                <p class="text-center title03">木目調パーティション工事</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/door1.jpg" alt="木目調パーティション工事" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">アルミパーティション工事</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/apt-1.jpg" alt="アルミパーティション工事" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">地レール工事</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/apt-2.jpg" alt="地レール工事" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>
-                            <div>
-                                <p class="text-center title03">金物加工</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/apt-3.jpg" alt="金物加工" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div>    
-                            <!-- 飲食コンサル -->
-                            <div>
-                                <p class="text-center title03">飲食コンサル</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/nobu.jpg" alt="のぶちゃん大塚店" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div> 
-                            <!-- 防災工事 -->
-                            <div>
-                                <p class="text-center title03">廃棄感知器</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/kantiki-1.jpg" alt="既存感知器" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div> 
-                            <div>
-                                <p class="text-center title03">既存感知器交換</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/kantiki-2.jpg" alt="感知器交換" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div> 
-                            <!-- 3Dモデリング -->
-                            <div>
-                                <p class="text-center title03">休憩バースペースモデル</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/model-1.jpg" alt="休憩バースペース3Dモデル" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div> 
-                            <div>
-                                <p class="text-center title03">会議室モデル</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/model-2.jpg" alt="会議室3Dモデル" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div> 
-                                <div>
-                                <p class="text-center title03">エントランスモデル</p>
-                                <img src="<?php echo get_template_directory_uri();?>/img/model-3.jpg" alt="エントランス3Dモデル" class="d-block mx-auto mt-3" style="width:100%;">
-                            </div> 
- 
-                        </div>
-                    </div>
+                    <ul class="slider">
+                        <li>
+                            <p class="text-center title03">オンライン講座</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/HTML_CSS.png" alt="HTML・CSS講座" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">VR会議室</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/model-2.jpg" alt="会議室3Dモデル" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">ネットワーク図</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/net-2.jpg" alt="配線構成図" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">軟水タンク図</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/tank-2.jpg" alt="軟水タンク製作図" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">VRエントランス</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/model-3.jpg" alt="エントランス3Dモデル" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">エネルギーフローシート</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/fow.jpg" alt="エネルギーフローシート" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">移転作業</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/iten.jpg" alt="移転" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">休憩barスペースVR</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/model-1.jpg" alt="休憩バースペース3Dモデル" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li> 
+                        <li>
+                            <p class="text-center title03">廃棄鉄骨材など</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/kaitai-3.jpg" alt="廃棄鉄骨材など" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">木目調PT工事</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/door1.jpg" alt="木目調パーティション工事" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">APT工事</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/apt-1.jpg" alt="アルミパーティション工事" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                        <li>
+                            <p class="text-center title03">金物加工</p>
+                            <img src="<?php echo get_template_directory_uri();?>/img/apt-3.jpg" alt="金物加工" class="d-block mx-auto mt-3" style="width:100%;">
+                        </li>
+                    </ul>
+                    
                 </div>
 
                 <!-- 実績テーブル -->
@@ -679,7 +538,7 @@
                         
                     </table>
                     <p class="text-end ex-text">※一部お客様名は伏せさせていただきます</p>
-                    <div class="text-center">
+                    <div class="text-center scroll_up">
                         <a href="#title09" class="btn btn-flat" onclick="butotnClick()"><span>お問い合わせ</span></a>
                     </div>
                 </div>
@@ -687,11 +546,11 @@
                 <!-- YouTubeチャンネル -->
                 <div class="scroll_up mt-4">
                     <h2 class="text-center title01" id="title08">Youtubeチャンネル</h2>
-                    <div class="text-center  mx-right-5 mx-left-5 p-5 tec-bg">
+                    <div class="text-center  mx-right-5 mx-left-5 tec-bg">
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
                             <br>是非参考にしてください!!
                         </p>
-                        <a href="https://www.youtube.com/channel/UCGZ9tx2keMqtCSL_UW1vyRw" target=_blank><p>Youtubeチャンネルはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/youtube_home.jpg" alt="Youtubeチャンネル" class="d-block mx-auto mt-3" style="width:100%;"></a>
+                        <a href="https://www.youtube.com/channel/UCGZ9tx2keMqtCSL_UW1vyRw" target=_blank>Youtubeチャンネルはコチラ<img src="<?php echo get_template_directory_uri();?>/img/youtube_home.jpg" alt="Youtubeチャンネル" class="d-block mx-auto mt-3" style="width:100%;"></a>
                         
                         <!-- <h3 class="text-center mt-5">最近投稿された動画</h3> -->
                         <!-- <div class="blogbox">
@@ -845,6 +704,7 @@
 
    
 
+    <!-- スクロールアップ -->
     <script>
         jQuery(function() {
             var appear = false;
@@ -873,13 +733,35 @@
             });
     </script>
 
+    <!-- canvasレスポンシブ -->
+    <script>
+        var container = document.getElementById('wrapper');
+        var canvas = document.getElementById('particle');
+        var ctx = canvas.getContext('2d');
+
+        //親要素のサイズをCanvasに指定
+        canvas.width = container.clientWidth;
+        canvas.height = container.clientHeight;
+
+        //リサイズ時
+        window.onresize = function(){
+            var scale = 0;
+            //再描画のため必ずCanvasの描画領域をクリアする
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            canvas.width = container.clientWidth;
+            canvas.height = container.clientHeight; 
+        }
+
+
+    </script>
+
     <!-- パーティクルアニメ -->
     <script>
         // デフォルト
         $(function(){
             let particle = ()=> {
-            $("#particle").particleText({
-                text: "Innovation<br>思考力で切り開く", // 表示させたいテキスト。改行の場合は<br>追加
+                $("#particle").particleText({
+                text: "Innovation<br>創造力", // 表示させたいテキスト。改行の場合は<br>追加
                 colors:["#091","#07f","#034"], // パーティクルの色を複数指定可能
                 speed: "high",  // slow, middle, high の3つから粒子が集まる速さを選択
             });
@@ -889,9 +771,9 @@
 
             $(window).scroll(function() {
                 var y = window.scrollY;
-                console.log(y);
+                // console.log(y);
                 if (y > 100 && y < 180) {
-                    console.log("OK");
+                    // console.log("OK");
                     particle();
                 }
             });
@@ -899,24 +781,39 @@
         });
 
     </script>
-    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-17/js/particleText.js"></script>
+    <!-- <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-17/js/particleText.js"></script> -->
+    <script src="<?php echo get_template_directory_uri();?>/setting.js"></script>
+    <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-17/js/5-17.js"></script>
 
-    <!-- 横スクロール -->
+   <!-- スライドショー -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-8/js/6-1-8.js"></script>
     <script>
-        const listWrapperEl = document.querySelector('.side-scroll-list-wrapper');
-        const listEl = document.querySelector('.side-scroll-list');
-
-        gsap.to(listEl, {
-        x: () => -(listEl.clientWidth - listWrapperEl.clientWidth),
-        ease: 'none',
-        scrollTrigger: {
-            trigger: '.side-scroll',
-            start: 'top top', // 要素の上端（top）が、ビューポートの上端（top）にきた時
-            end: () => `+=${listEl.clientWidth - listWrapperEl.clientWidth}`,
-            scrub: true,
-            pin: true,
-            anticipatePin: 1,
-            invalidateOnRefresh: true,
-        },
-        });
+        jQuery('.slider').slick({
+            arrows: false,//左右の矢印はなし
+            autoplay: true,//自動的に動き出すか。初期値はfalse。
+            autoplaySpeed: 0,//自動的に動き出す待ち時間。初期値は3000ですが今回の見せ方では0
+            speed: 8000,//スライドのスピード。初期値は300。
+            infinite: true,//スライドをループさせるかどうか。初期値はtrue。
+            pauseOnHover: false,//オンマウスでスライドを一時停止させるかどうか。初期値はtrue。
+            pauseOnFocus: false,//フォーカスした際にスライドを一時停止させるかどうか。初期値はtrue。
+            cssEase: 'linear',//動き方。初期値はeaseですが、スムースな動きで見せたいのでlinear
+            slidesToShow: 4,//スライドを画面に4枚見せる
+            slidesToScroll: 1,//1回のスライドで動かす要素数
+            responsive: [
+            {
+                breakpoint: 769,//モニターの横幅が769px以下の見せ方
+                settings: {
+                    slidesToShow: 2,//スライドを画面に2枚見せる
+                }
+            },
+            {
+                breakpoint: 426,//モニターの横幅が426px以下の見せ方
+                settings: {
+                    slidesToShow: 1.5,//スライドを画面に1.5枚見せる
+                }
+            }
+        ]
+    });
     </script>
