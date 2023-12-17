@@ -642,3 +642,56 @@ a.btn-3d-flip:hover .btn-3d-flip-box {
     width: 40%;
   }
 }
+
+
+/*---------- 送信ボタン ----------*/
+input[type='submit'] {
+  -webkit-appearance: none; /*アイフォンでCSSが無効になるのを防ぐ*/
+      width: 100%;
+      max-width: 320px;
+      background: #66cccc;
+      border-radius: 10px;
+      border: none;
+      color: #fff;
+      padding: 20px 0;
+      font-weight: bold;
+      font-size: 120%;
+  }
+  input[type='submit']:hover {
+      background: #66dddd;
+      transition: all .5s ease; /*変化する時間（0.5秒）*/
+  }
+  div.wpcf7 .ajax-loader { /*送信ボタンの右につく余白を消す*/
+      display: none !important;
+  }
+   
+  /*---------- バナーボタン（送信ボタンと同じデザインにする）----------*/
+  .bnbtn {
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+      margin: 1em auto;
+      background: #66cccc;
+      border-radius: 10px;
+  }
+  .bnbtn a {
+      display: block;
+      color: #fff;
+      padding: 20px 0;
+      font-weight: bold;
+      font-size: 120%;
+  }
+  .bnbtn :hover {
+      background: #66dddd;
+      transition: all .5s ease;
+      opacity: 10; /* 送信ボタンと挙動そろえるためにリンクの半調は解除 */
+      border-radius: 10px; /* ここにコレないと角丸とれちゃう…why… */
+  }
+
+  div.wpcf7 .ajax-loader {
+    display: block;
+}
+
+  span.wpcf7-spinner {
+    display: block;
+  }
