@@ -19,13 +19,83 @@
         <div id="wrapper">
             <canvas id="particle"></canvas>
         </div>
+        <div class="amine">
+                <div class="load-1 posit-1">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+
+                <div class="load-2 posit-2">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="load-3 posit-3">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+
+                <div class="load-4 posit-4">
+                    <div class="ring-1"></div>
+                </div>
+
+                <div class="load-5 posit-5">
+                    <div class="ring-2">
+                    <div class="ball-holder">
+                        <div class="ball"></div>
+                    </div>
+                    </div>
+                </div>
+
+
+            <div class="load-7 posit-6">
+                <div class="square-holder">
+                <div class="square"></div>
+                </div>
+            </div>
+
+            <div class="load-8 posit-7">
+                <div class="line"></div>
+            </div>
+
+
+            <div class="load-9 posit-8">
+                <div class="spinner">
+                <div class="bubble-1"></div>
+                <div class="bubble-2"></div>
+                </div>
+            </div>
+
+
+            <div class="load-10 posit-9">
+                <div class="bar"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
         <div class="main-doc">
+
+
+
+
+
             <!-- スクロール -->
             <div class="top-space"></div>
             <!-- <video src="<?php echo get_template_directory_uri();?>/img/main_site.mp4" muted autoplay playsinline loop style="width:100%;"></video> -->
             <div class="container">
 
-                <h1 class="text-center text-primary title02 scroll_up">内装・システム・心理学・省エネが<br>異様で最高のコラボ</h1>
+                <h1 class="text-center text-primary title02 scroll_up">分野が違っても<br>基礎理論は共通</h1>
 
                 <div class="row flexbox">
 
@@ -116,6 +186,23 @@
                     </div>
                 </div>
 
+                <!-- サービスアニメーション -->
+                <div class="row mt-5 flexbox">
+                    <h2 class="text-center title01 scroll_up Larger shadow" id="title12">サービスアニメーション</h2>
+                    <div class="col-10 d-block mx-auto tec-bg scroll_up pt-3 ps-3 pe-3">
+                        <p>Field-UPのサービスを動画で紹介</P>
+                        <p>新作が出ましたら随時更新されていきますのでお楽しみください</p>
+                    </div>
+                    <div class="col-6 mt-3 box1 scroll_up">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5HJpKNcW-8U?si=EzACWABkC8Fz8Mur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-6 mt-3 box1 scroll_up">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvMV7q22Lw?si=ixzat03knN2a-nbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+                <!-- 事業展開 -->
                 <div class="row mt-5 flexbox">
                     <h2 class="text-center title01 scroll_up Larger shadow" id="title02">事業展開</h2>
 
@@ -331,48 +418,54 @@
                     <div class="col-8 box1"> 
                         <h2 class="text-center title02 mt-3 scroll_up Larger shadow">メッセージ</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 tec-bg scroll_up">
-                            <p >いろいろお伝えしたいことはありますが、先ず一番にお伝えしたことは
-                                <br><b class="text-primary">私が『人』が大好き</b>
-                                <br>ということです。
+                            <p >いろいろお伝えしたいことはありますが、先ず一番にお伝えしたことは<b class="text-primary h5">私が『人』が大好き</b>ということです。
                                 <br>だからこそ誰かのために何かしたいと常日頃思って仕事をしています。
-                                <br>日本全体、世界の人を助けたいと大それたことは言えませんが、せめて関わった方皆さんのために自身のできることを精一杯取り組みます。
+                                <br>日本全体、世界の人を助けたいと大それたことは言えませんが、せめて関わった方、道かな人のために自身のできることを精一杯取り組みます。
                             </p>
-                            <p><b class="text-primary">より多くの方の悩みを聴いて、寄り添うために</b>心理学を学び心理士になりました。
-                                <br><b class="text-primary">技術的に困っている方の助けになるために</b>設計・工事・デザイン・クリエイティブなスキルや資格を分野問わずに身に着けてきました。
+                            <p>より多くの方の悩みを聴いて、寄り添うために<b class="text-primary h5">心理学を学び心理士</b>になりました。
+                                <br>技術的に困っている方の助けになるために設計・工事・デザイン・クリエイティブなスキルや資格を分野問わずに身に着けてきました。
                             </p>
                             <p>先ずは友人、その次は友人の隣人、さらにその先の人といった感じで徐々に人の助けになれる範囲を広げていきます!!
                             </p>
+                            <p>併せてField-UPのもう一つの方針として<b class="text-primary h5">やりたいことを諦めないための思考力</b>を養い、かつ、提供するということがあります。
+                            <br><b class="text-primary h5">人は例外なく誰しも弱い</b>です。外観的に強く見えている人でも弱い面は必ず持っているものです。それでもそういった人たちが強く見えているのは何か別の能力やスキルで弱さをカバーしているということになります。</p>
+                            <p>やりたいことがあるけど技術的に不可能、自分には到底できない、そんなことがあれば一度Field-UPに相談してください。
+                            <br>やりたいことの実現のために、もしくは理想の結果に少しでも違づけるような技術・ノウハウ提供などもさせていただきます。</p>
+                        
                         </div>
 
                         <h2 class="text-center title02 mt-3 scroll_up Larger shadow">夢</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 tec-bg scroll_up">
                             <p>カウンセラーの仕事をしてきて、悩みを打ち明ける場所がない、迷いを誰かに相談できない人が世の中にはいっぱいいるという事態を目の当たりにしました。</p>
-                            <p>子供から大人まで、年齢や職業問わず<b class="text-primary">人の活動を止めてしまっているのはメンタル</b>が大きくかかわっていることは疑いようもない事実です。</p>
-                            <p>相談すること自体に抵抗がある人も多くいるため、<b class="text-primary">誰もが安心していろんな相談を持ち掛けてくれる場や仕組みを作ることが私の夢</b>です。</p>
-                            <p>相談を受けた内容の中で、自身の技術で助けになることがあれば、丸っと任せてもらえたら尚嬉しいです。</p>
+                            <p>子供から大人まで、年齢や職業問わず<b class="text-primary h5">人の活動を止めてしまう要因はメンタル</b>が大きく関わっていることは疑いようもない事実です。</p>
+                            <p>相談すること自体に抵抗がある人も多くいるため、<b class="text-primary h5">誰もが安心していろんな相談を持ち掛けてくれる場や仕組みを作ることが私の夢</b>です。</p>
+                            <p>将来的には<b class="text-primary h5">バーチャル空間で、対面でなく、匿名であっても気軽に相談ができる仕組み</b>を構築するため日々技術研究をしていきます。
+                            <br>その過程で生まれたVR技術、内装デザイン技術等の専門技術においてもご提供するような形にしていきます。</p>
+                            <p>相談を受けた内容の中で、Field-UPの技術力で助けになることがあれば、丸っと任せてもらえたら尚嬉しいです。</p>
                         </div>
 
                         <h2 class="text-center title02 mt-3 scroll_up Larger shadow">プロフィール</h2>
                         <div class=" mx-right-5 mx-left-5 p-3 tec-bg scroll_up">
                             <p>岐阜県岐阜市出身</p>
                             <p>大学の理工学部卒業後、某設備機械メーカーに設計士として入社とほぼ同時に心理学の資格学校に入学。
-                                <br>内装・通信・家具など様々な設計業に携わりながらコンサル会社へ転職し、心理士としても活動。
+                                <br>内装・通信・ソフトウエア・家具など様々な設計業に携わりながらコンサル会社へ転職し、心理士としても活動。
                             </p>
                             <p>コロナが普及し、世の中でカウンセリング求められる中で、独立を決意し、事業 Field-UP(屋号)を立ち上げる。
                                 <br>過去やってきたことを全て生かしながら手の届く範囲の困っている方に対して、ひたすら真摯なサービス提供を心掛けております。
+                                <br>趣味は野球をしており、ほぼ投球中毒気味wであり、仕事がない時は所属しているチームで投手をして仕事と趣味をバランスよく謳歌しております。
                             </p>
                         </div>
 
                     </div>
 
                     <div class="col-4 box2 scroll_up">
-                        <img src="<?php echo get_template_directory_uri();?>/img/representative.jpg" alt="聴くプロ上田敬介" class="d-block mx-auto mt-3" style="width:50%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/representative.jpg" alt="聴くプロ上田敬介" class="d-block mx-auto mt-3 img-zoom" style="width:50%;">
                         <p class="text-center title03">聴くプロ(心理カウンセラー)</p>
-                        <img src="<?php echo get_template_directory_uri();?>/img/vtuber.jpg" alt="Vtuber上田敬介" class="d-block mx-auto mt-3" style="width:90%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/vtuber.jpg" alt="Vtuber上田敬介" class="d-block mx-auto mt-3 img-zoom" style="width:90%;">
                         <p class="text-center title03">Vtuber</p>
-                        <img src="<?php echo get_template_directory_uri();?>/img/kaitai-5.jpg" alt="工事人上田敬介" class="d-block mx-auto mt-3" style="width:90%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/kaitai-5.jpg" alt="工事人上田敬介" class="d-block mx-auto mt-3 img-zoom" style="width:90%;">
                         <p class="text-center title03">工事人</p>
-                        <img src="<?php echo get_template_directory_uri();?>/img/create.jpg" alt="エンジニア・クリエーター・設計士上田敬介" class="d-block mx-auto mt-3" style="width:90%;">
+                        <img src="<?php echo get_template_directory_uri();?>/img/create.jpg" alt="エンジニア・クリエーター・設計士上田敬介" class="d-block mx-auto mt-3 img-zoom" style="width:90%;">
                         <p class="text-center title03">エンジニア・設計士<br>クリエイター</p>
                     </div>
                 </div>
@@ -381,14 +474,14 @@
                 <div class="row mt-5 pb-4 scroll_up tec-bg">
                     <h2 class="text-center title01 Larger shadow" id="title10">技術進化への挑戦</h2>
                     <div class="col-9 d-block mx-auto">
-                        <p>今やデジタル技術を取り入れることが当たり前になり、自身の業界とどのように技術やノウハウを組合わせていくかという<b class="text-primary">インテリジェンスな部分に大きな価値</b>が見いだせる時代になってきました。<br>
+                        <p>今やデジタル技術を取り入れることが当たり前になり、自身の業界とどのように技術やノウハウを組合わせていくかという<b class="text-primary h5">インテリジェンスな部分に大きな価値</b>が見いだせる時代になってきました。<br>
                         弊社の強みは心理、内装、省エネという異なる分野の技術に精通しているだけでなく、それらの技術本質をとらえる思考力にあります。</P>
-                        <p>その中で<b class="text-primary h1">Virtual Blend Thinking</b>を弊社は得意としています。Virtual(仮想)技術を各業界、各技術に混ぜ合わせて今ある価値以上の価値を生み出すことを実現させます。</p>
+                        <p>その中で<b class="text-primary h5">Virtual Blend Thinking</b>を弊社は得意としています。Virtual(仮想)技術を各業界、各技術に混ぜ合わせて今ある価値以上の価値を生み出すことを実現させます。</p>
                     </div>
 
                     <div class="row">
                         <div class="col-md-4 mt-1 mb-1">
-                            <img src="<?php echo get_template_directory_uri();?>/img/vr技術.jpg" alt="VR技術" class="d-block mx-auto" style="width:100%">
+                            <img src="<?php echo get_template_directory_uri();?>/img/vr技術.jpg" alt="VR技術" class="d-block mx-auto img-zoom" style="width:100%">
                             <div class="text-center mt-1 mb-1">
                                 <a href="https://field-up.work/VR_Library_new/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
                                     <span class="btn-3d-flip-box">
@@ -399,7 +492,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 mt-1 mb-1">
-                            <img src="<?php echo get_template_directory_uri();?>/img/Vtuberteacher.jpg" alt="新しい学習の形" class="d-block mx-auto" style="width:100%">
+                            <img src="<?php echo get_template_directory_uri();?>/img/Vtuberteacher.jpg" alt="新しい学習の形" class="d-block mx-auto img-zoom" style="width:100%">
                             <div class="text-center mt-1 mb-1">
                                 <a href="https://www.youtube.com/watch?v=NFIskiYb-r4/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
                                     <span class="btn-3d-flip-box">
@@ -410,7 +503,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 mt-1 mb-1">
-                            <img src="<?php echo get_template_directory_uri();?>/img/設備デジタル.jpg" alt="エネルギーのデジタル化" class="d-block mx-auto" style="width:100%">
+                            <img src="<?php echo get_template_directory_uri();?>/img/設備デジタル.jpg" alt="エネルギーのデジタル化" class="d-block mx-auto img-zoom" style="width:100%">
                             <div class="text-center mt-1 mb-1">
                                 <a href="https://www.youtube.com/watch?v=5HJpKNcW-8U/" target="_blank" class="btn btn-3d-flip" onclick="butotnClick()">
                                     <span class="btn-3d-flip-box">
@@ -549,8 +642,8 @@
                         <p>ありとあらゆる業種に関わるスキルアップに役立つ動画を多数配信中!!
                             <br>是非参考にしてください!!
                         </p>
-                        <a href="https://www.youtube.com/channel/UCGZ9tx2keMqtCSL_UW1vyRw" target=_blank>Youtubeチャンネルはコチラ<img src="<?php echo get_template_directory_uri();?>/img/youtube_home.jpg" alt="Youtubeチャンネル" class="d-block mx-auto mt-3" style="width:100%;"></a>
-                        
+                        <a href="https://www.youtube.com/channel/UCGZ9tx2keMqtCSL_UW1vyRw" target=_blank class="btn_21">Youtubeチャンネルへ</a>
+                        <img src="<?php echo get_template_directory_uri();?>/img/youtube_home.jpg" alt="Youtubeチャンネル" class="d-block mx-auto mt-3" style="width:100%;">
                         <!-- <h3 class="text-center mt-5">最近投稿された動画</h3> -->
                         <!-- <div class="blogbox">
                             <div class="blog_wrap">
@@ -600,29 +693,29 @@
                     <div class="row d-block mx-auto " style="width:30%;">
                         <div class="col">
                             <a href="https://www.youtube.com/@byfield-up7929" target=_blank>
-                                <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="mt-3 Larger shadow" style="width:100%;">
+                                <img src="<?php echo get_template_directory_uri();?>/img/YouTube.png" alt="YouTubeチャンネル" class="mt-3 Larger shadow img-zoom" style="width:100%;">
                             </a>
                         </div>
                     </div>
                     <div class="row d-flex">
                         <div class="col-md-3">
                             <a href="https://www.facebook.com/profile.php?id=100068565794040&sk=reels_tab" target=_blank>
-                                <img src="<?php echo get_template_directory_uri();?>/img/Facebook.png" alt="facebook" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                                <img src="<?php echo get_template_directory_uri();?>/img/Facebook.png" alt="facebook" class="d-block mx-auto mt-3 Larger shadow img-zoom" style="width:100%;">
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://www.instagram.com/fieldupx/" target=_blank>
-                                <img src="<?php echo get_template_directory_uri();?>/img/Instagram.png" alt="instagram" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                                <img src="<?php echo get_template_directory_uri();?>/img/Instagram.png" alt="instagram" class="d-block mx-auto mt-3 Larger shadow img-zoom" style="width:100%;">
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://www.tiktok.com/@field_up_x?lang=ja-JP" target=_blank>
-                                <img src="<?php echo get_template_directory_uri();?>/img/TikTok.png" alt="TikTok" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                                <img src="<?php echo get_template_directory_uri();?>/img/TikTok.png" alt="TikTok" class="d-block mx-auto mt-3 Larger shadow img-zoom" style="width:100%;">
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://twitter.com/FieldUP_X" target=_blank>
-                                <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow" style="width:100%;">
+                                <img src="<?php echo get_template_directory_uri();?>/img/Twitter.png" alt="teitter" class="d-block mx-auto mt-3 Larger shadow img-zoom" style="width:100%;">
                             </a>
                         </div>
 
@@ -668,16 +761,42 @@
                     <h2 class="text-center title01 Larger shadow" id="title05">ストリートアカデミー</h2>
                     <div class="tec-bg">
                         <p class="text-center">オンラインでいろいろなことを学べるプラットフォーム
-                            <br>ここで<b class="text-primary">オンライン講師</b>をしています
+                            <br>こちらで<b class="text-primary">オンライン講師</b>をしています
                         </p>
                         <p class="text-center">講座だけでなく、<b class="text-primary">気軽にいろんなことを相談できる窓口</b>もあります</p> 
                     </div>
-                    <div class="col-9 d-block mx-auto">
-                        <a href="https://www.street-academy.com/steachers/465170" target=_blank class="text-center"><p class="text-center">先生ページはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/sutoaka.jpg" alt="ストアカ先生ページ" class="d-block mx-auto mt-3" style="width:100%;"></a>
+                    <div class="row">
+                        <div class="col-md-6 d-block mx-auto mt-2">
+                            <div class="text-center mt-1 mb-1">
+                                <a href="https://www.street-academy.com/steachers/465170" target=_blank class="btn btn-3d-flip mt-2">
+                                    <span class="btn-3d-flip-box">
+                                        <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front">先生ページ</span>
+                                        <span class="btn-3d-flip-box-face btn-3d-flip-box-face--back">スキルアップ!!</span>
+                                    </span>
+                                </a>
+                                <img src="<?php echo get_template_directory_uri();?>/img/sutoaka.jpg" alt="ストアカ先生ページ" class="d-block mx-auto img-zoom mt-4" style="width:100%;">
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-block mx-auto mt-2">
+                            <div class="text-center mt-1 mb-1">
+                                <a href="https://www.street-academy.com/onetime/services/2949" target=_blank class="btn btn-3d-flip mt-2">
+                                    <span class="btn-3d-flip-box">
+                                        <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front">相談コーナー</span>
+                                        <span class="btn-3d-flip-box-face btn-3d-flip-box-face--back">お気軽にどうぞ</span>
+                                    </span>
+                                </a>
+                                <img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="ストアカ相談コーナー" class="d-block mx-auto img-zoom mt-4" style="width:100%;">
+                            </div>
+                        </div>
+
+                        
+
+
+
+                        
                     </div>
-                    <div class="col-9 d-block mx-auto">
-                    <a href="https://www.street-academy.com/onetime/services/2949" target=_blank class="text-center mt-4"><p class="text-center">相談コーナーはコチラ</p><img src="<?php echo get_template_directory_uri();?>/img/mental.jpg" alt="ストアカ相談コーナー" class="d-block mx-auto mt-3" style="width:100%;"></a>
-                    </div>
+                    
+                    
                 </div>
                 
                 <!-- お問合せ -->
@@ -760,7 +879,7 @@
         $(function(){
             let particle = ()=> {
                 $("#particle").particleText({
-                text: "Innovation<br>創造力", // 表示させたいテキスト。改行の場合は<br>追加
+                text: "Innovation", // 表示させたいテキスト。改行の場合は<br>追加
                 colors:["#091","#07f","#034"], // パーティクルの色を複数指定可能
                 speed: "high",  // slow, middle, high の3つから粒子が集まる速さを選択
             });
