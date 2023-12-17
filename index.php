@@ -186,6 +186,23 @@
                     </div>
                 </div>
 
+                <!-- サービスアニメーション -->
+                <div class="row mt-5 flexbox">
+                    <h2 class="text-center title01 scroll_up Larger shadow" id="title12">サービスアニメーション</h2>
+                    <div class="col-10 d-block mx-auto tec-bg scroll_up pt-3 ps-3 pe-3">
+                        <p>Field-UPのサービスを動画で紹介</P>
+                        <p>新作が出ましたら随時更新されていきますのでお楽しみください</p>
+                    </div>
+                    <div class="col-6 mt-3 box1 scroll_up">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5HJpKNcW-8U?si=EzACWABkC8Fz8Mur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-6 mt-3 box1 scroll_up">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvMV7q22Lw?si=ixzat03knN2a-nbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+                <!-- 事業展開 -->
                 <div class="row mt-5 flexbox">
                     <h2 class="text-center title01 scroll_up Larger shadow" id="title02">事業展開</h2>
 

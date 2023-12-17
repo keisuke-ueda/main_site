@@ -62,10 +62,11 @@ $(window).scroll(function () {
 
     <div class="sidebar">
         <p class="bg-success">情報</p>  
-        <ul>
+        <ul class="menu-list">
             <li><a href="<?php bloginfo('url')?>"><img src="<?php echo get_template_directory_uri();?>/img/top.png" alt="" style="width:10%;">TOP</a></li>
             <li><a href="<?php bloginfo('url')?>/#title01"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-building-19-240.png" alt="事業概要アイコン" style="width:10%;">事業概要</a></li>
             <li><a href="<?php bloginfo('url')?>/#title02"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-school-27-240.png" alt="事業展開アイコン" style="width:10%;">事業展開</a></li>
+            <li><a href="<?php bloginfo('url')?>/#title12"><img src="<?php echo get_template_directory_uri();?>/img/動画再生ボタン2.png" alt="サービスアニメーション" style="width:10%;">アニメーション</a></li>
             <li><a href="<?php bloginfo('url')?>/#title03"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-id-card-thin-240.png" alt="代表メッセージアイコン" style="width:10%;">代表メッセージ</a></li>
             <li><a href="<?php bloginfo('url')?>/#title10"><img src="<?php echo get_template_directory_uri();?>/img/サングラスのアイコン素材 その2.png" alt="仮想思考" style="width:10%;">革新技術</a></li>
             <li><a href="<?php bloginfo('url')?>/#title07"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-photo-camera-thin-240.png" alt="ギャラリーアイコン" style="width:10%;">ギャラリー</a></li>

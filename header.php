@@ -78,9 +78,10 @@ $(window).scroll(function () {
 
     <div class="sidebar">
         <p class="bg-success">情報</p>
-        <ul>
+        <ul class="menu-list">
             <li><a href="#title01" onclick="butotnClick()"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-building-19-240.png" alt="事業概要アイコン" style="width:10%;">事業概要</a></li>
             <li><a href="#title02" onclick="butotnClick()"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-school-27-240.png" alt="事業展開アイコン" style="width:10%;">事業展開</a></li>
+            <li><a href="#title12" onclick="butotnClick()"><img src="<?php echo get_template_directory_uri();?>/img/動画再生ボタン2.png" alt="サービスアニメーション" style="width:10%;">アニメーション</a></li>
             <li><a href="#title03" onclick="butotnClick()"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-id-card-thin-240.png" alt="代表者alt" style="width:10%;">代表メッセージ</a></li>
             <li><a href="#title10" onclick="butotnClick()"><img src="<?php echo get_template_directory_uri();?>/img/サングラスのアイコン素材 その2.png" alt="仮想思考" style="width:10%;">革新技術</a></li>
             <li><a href="#title07" onclick="butotnClick()"><img src="<?php echo get_template_directory_uri();?>/img/iconmonstr-photo-camera-thin-240.png" alt="ギャラリーアイコン" style="width:10%;">ギャラリー</a></li>
