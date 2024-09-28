@@ -13,35 +13,17 @@
         });
 </script>
 
-<!-- マウスストーカー -->
-<!-- <script type="text/javascript">
-    $(function() {
-        var body = $("body");
-        var flag = true;
-    
-        $(document).on("mousemove", function(e) {
-        if (flag) {
-            var x = e.clientX;
-            var y = e.clientY;
-            
-            var star = $("<span>").attr("class", "star");
-            star.css({
-            "top": y + "px",
-            "left": x + "px"
-            });
-            body.prepend(star);
-            setTimeout(function() {
-            star.remove();
-            }, 2000);
-    
-            flag = false;
-            setTimeout(function() {
-            flag = true;
-            }, 100);
-        }
-        });
-    });
-</script> -->
+
+ <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYQC37EY1G"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CYQC37EY1G');
+    </script>
+
 
 <!-- 表示アニメーション -->
 <script>

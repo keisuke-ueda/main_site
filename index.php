@@ -194,10 +194,10 @@
                         <p>新作が出ましたら随時更新されていきますのでお楽しみください</p>
                     </div>
                     <div class="col-6 mt-3 box1 scroll_up">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5HJpKNcW-8U?si=EzACWABkC8Fz8Mur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pIu1SX1qXHU?si=Nq2X75BhTcH9v8SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="col-6 mt-3 box1 scroll_up">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DSvMV7q22Lw?si=ixzat03knN2a-nbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HuZqFXMYdyQ?si=JVajMd6FsOaV-Lyf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
 
