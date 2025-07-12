@@ -7,7 +7,7 @@
             </div>
 
             <div class="col-4 d-flex align-items-center justify-content-center">
-                <p>所在地：〒114-0011 東京都北区昭和町1-4-7
+                <p>所在地：〒115-0055 東京都北区赤羽西1-36-16
                     <br>email:keisuke.ueda@field-up.work
                     <br>TEL:080-4955-4941
                 </p>

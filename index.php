@@ -609,7 +609,7 @@
                             <tr>
                                 <th class="text-center"><span class="mini_logo02">システム</span></th>
                                 <th>サイト作成・アプリ開発・不具合改善等</th>
-                                <th>中小規模企業(某不動産会社、理髪店他)</th>
+                                <th>中小規模企業(某不動産会社、理髪店、小規模ゲーム他)</th>
                             </tr>
                             <tr>
                                 <th class="text-center"><span class="mini_logo03">内装</span></th>
